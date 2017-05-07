@@ -1,6 +1,6 @@
 @font-face {
   font-family: emin;
-  src: url(fonts/ADAM.otf);
+  src: url(../fonts/ADAM.otf);
 }
 
 body{
@@ -35,12 +35,7 @@ body{
 }
 
 @media screen and (max-width: 770px)  {
-  #banner_no_cel {
-    display: none;
-  }
-
   #menu_no_cel{
-
     display: none;
   }
 
@@ -185,6 +180,12 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: rgba(56, 56, 56, 0.79);
+  height: 52px;
+  transition:height 1.3s;
+}
+
+ul.topnav.responsive{
+  height: 335px;
 }
 
 ul.topnav li {
@@ -204,30 +205,33 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: rgba(56, 56, 56, 0);}
 
-ul.topnav li.icon {display: none;}
+@media screen and (max-width:770px) {
 
-@media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width:680px) {
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
+    top: 6px;
     position: absolute;
     right: 0;
-    top: 0;
   }
-  ul.topnav.responsive li {
+  ul.topnav {
+    position: relative;
+  }
+  ul.topnav li {
     float: none;
-    display: inline;
+    display: block;
+    padding: 5px 0;
   }
-  ul.topnav.responsive li a {
+  ul.topnav li a {
     display: block;
     text-align: left;
     font-size: 14px;
   }
+}
+ul.topnav li a:hover{
+  color: #FDF500 !important;
+}
+.fa.fa-newspaper-o{
+  color: #FDF500;
+  font-size: 34px;
+  margin-right: 10px;
+  margin-left: 14px;
 }
