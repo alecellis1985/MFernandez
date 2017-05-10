@@ -255,11 +255,24 @@ ul.topnav li a:hover{
 .escItem{
   position: relative;
   padding: 15px;
-  background: #009C84;
+  background: #00B194; 
   border-radius: 3px;
+  cursor:pointer;
 }
 .escItem:hover .espDesc{
-  height: 145px;
+  height: 161px;
+  transition: all 1s;
+}
+.escItem span{
+  color:#FFFFFF;
+  cursor: pointer; 
+  font-size: 12px;
+}
+
+.escItem:hover span{
+  height: 0;
+  opacity: 0;
+  float: left; 
   transition: all 1s;
 }
 

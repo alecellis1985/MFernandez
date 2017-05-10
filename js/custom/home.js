@@ -73,15 +73,16 @@
       $("#myTopnav li a, #jx-main-menu li a").click(function (e) {
         e.preventDefault();
         var $thisBlock = $($(this).attr('href'));
-        $('html, body').animate({
-          scrollTop: $thisBlock.offset().top
-        }, 1000);
+        if ($thisBlock) {
+          $('html, body').animate({
+            scrollTop: $thisBlock.offset().top
+          }, 1000);
+        }
         return false;
       });
     }
   };
 
   Home.initialize();
-
 })();
 
