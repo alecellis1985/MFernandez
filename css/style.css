@@ -258,7 +258,9 @@ ul.topnav li a:hover{
   background: #00B194; 
   border-radius: 3px;
   cursor:pointer;
+  box-shadow: 0px 0px 22px #6f6f6f;
 }
+
 .escItem:hover .espDesc{
   height: 161px;
   transition: all 1s;
@@ -290,6 +292,7 @@ ul.topnav li a:hover{
 
 .escItem .service-type{
   font-family: emin !important;color: #00b18f;font-size: 18px;background: #fff700;padding: 10px!important;    margin-bottom: 6px;
+  border-radius: 0px 0px 3px 3px;
 }
 
 .jx-service-2{

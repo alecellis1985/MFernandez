@@ -8,13 +8,25 @@ and open the template in the editor.
     Author     : Alexander
 */
 
-
 @media (max-width: 768px) { 
 
 }
-@media (max-width: 992px){ 
-  
+
+@media (min-width: 769px) { 
+  .escItem:hover>div{
+    position: absolute;
+    padding: 15px;
+    background: #00b194;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 22px #6f6f6f;
+    top: 0;
+    left: 0;
+  }
 }
-@media (max-width: 1200px) { 
-  
+@media (min-width: 992px){ 
+
+}
+@media (min-width: 1200px) { 
+
 }
