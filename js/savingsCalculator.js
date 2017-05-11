@@ -1,13 +1,26 @@
-(function () {
-  $("#slider").slider({
-    min: 1,
-    max: 6,
-    range: "min",
-    value: 1,
-    slide: function (event, ui) {
-      console.log(ui.value - 1);
-    }
-  });
+var savings_Serv = (function () {
+  var emin = {
+    rendXCarga: 100,
+    cantCargasDiarias: 0.41,
+    kwXhrXcarga: 10.80,
+    precioKw: 4.5,
+    serviceAnualesDur: 5000,
+    costoServicio: 1800,
+    recambioBatDur: 15000,
+    recambioBatPrecio: 23200
+  };
+
+  var datos = {
+    kmRecorridoXdia: 30,
+    rendimientoNaftaXlt: 12,
+    costoCombustible: 44,
+    servAnuales: 1,
+    costoPromedioService: 10000,
+    diasAno: 365,
+    diasMes: 30,
+    anosSeleccionados: 5,
+    usdBill: 28
+  };
 
   var serv = {
     auto: emin,
@@ -22,42 +35,30 @@
     ahorroService: ahorroService,
     ahorroMensual: ahorroMensual,
     ahorroAnual: ahorroAnual,
-    ahorroTotalServyNaft: ahorroTotalServyNaft
+    ahorroTotalServyNaft: ahorroTotalServyNaft,
+    cantBatACambiar: cantBatACambiar,
+    kmAnuales: kmAnuales,
+    toFixed0Nr: toFixed0Nr,
+    getValorUsd: getValorUsd,
+    ahorroTotalUsd: ahorroTotalUsd
   };
 
   return serv;
 
-  var emin = {
-    rendXCarga: 100,
-    cantCargasDiarias: 0.41,
-    kwXhrXcarga: 10.80,
-    precioKw: 4.5,
-    serviceAnualesDur: 5000,
-    costoServicio: 1800,
-    recambioBatDur: 15000,
-    recambioBatPrecio: 23200
-  };
-
-  var datos = {
-    kmRecorridoXdia: 5,
-    rendimientoNaftaXlt: 10,
-    costoCombustible: 44,
-    serviceAnuales: 1,
-    costoPromedioService: 10000,
-    diasAno: 365,
-    diasMes: 30
-  };
+  function toFixed0Nr(nr) {
+    return parseInt(nr.toFixed(2));
+  }
 
   function ahorroTotalServyNaft() {
-    return ahorroAnual() + ahorroService();
+    return ahorroAnual() * datos.anosSeleccionados + ahorroService();
   }
 
   function ahorroDiario() {
-    return costosDiarios() - costoDiarioNafta();
+    return costoDiarioNafta() - costosDiarios();
   }
 
   function ahorroMensual() {
-    ahorroDiario() * datos.diasMes;
+    return ahorroDiario() * datos.diasMes;
   }
 
   function ahorroAnual() {
@@ -65,15 +66,15 @@
   }
 
   function ahorroService() {
-    return costoTotalServicio() - costoNaftaAnualService();
+    return costoNaftaAnualService() * datos.anosSeleccionados - costoTotalServicio() * datos.anosSeleccionados;
   }
 
   function costoNaftaAnualService() {
-    return datos.serviceAnuales * datos.costoPromedioService;
+    return datos.servAnuales * datos.costoPromedioService;
   }
 
   function costoDiarioNafta() {
-    return datos.costoCombustible * datos.kmRecorridoXdia;
+    return datos.costoCombustible * datos.kmRecorridoXdia / datos.rendimientoNaftaXlt;
   }
 
   function cantidadDeCargasDiarias() {
@@ -91,15 +92,33 @@
   function costosDiarios() {
     return costoDeCarga() * cantidadDeCargasDiarias();
   }
+
   function serviceAnuales() {
-    datos.kmRecorridoXdia * datos.diasAno / emin.serviceAnualesDur;
+    return datos.kmRecorridoXdia * datos.diasAno / emin.serviceAnualesDur;
   }
 
   function cantBatACambiar() {
-    cantidadKmsRecorridosAnual() / emin.recambioBatDur;
+    return cantidadKmsRecorridosAnual() / emin.recambioBatDur;
   }
 
   function costoTotalServicio() {
-    return serviciosAnuales() * emin.costoServicio + cantBatACambiar() * emin.recambioBatPrecio;
+    return serviceAnuales() * emin.costoServicio + cantBatACambiar() * emin.recambioBatPrecio;
+  }
+
+  function kmAnuales() {
+    return datos.kmRecorridoXdia * datos.diasAno;
+  }
+
+  function ahorroTotalUsd() {
+    return ahorroTotalServyNaft() / datos.usdBill;
+  }
+
+  function getValorUsd() {
+    return $.get("https://www.google.com/finance/converter?a=1&from=USD&to=UYU", function (data) {
+      var startStr = '<span class=bld>';
+      var startIndx = data.indexOf(startStr);
+      var endIndx = data.indexOf('UYU</span>');
+      datos.usdBill = parseFloat(data.substring(startIndx + startStr.length, endIndx));
+    });
   }
 })();

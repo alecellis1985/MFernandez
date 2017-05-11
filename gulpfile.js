@@ -28,7 +28,7 @@ var imgFolder = 'images';
 gulp.task('watch', function() {
     gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
     gulp.watch(rootFile + 'css/**/*.css', ['useref']);
-    gulp.watch(rootFile + 'jd/**/*.js', ['useref']);
+    gulp.watch(rootFile + 'js/**/*.js', ['useref']);
     gulp.watch(rootFile + '*.html', ['useref']);
 });
 
