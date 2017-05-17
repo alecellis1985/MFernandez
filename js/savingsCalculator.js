@@ -11,7 +11,7 @@ var savings_Serv = (function () {
   };
 
   var datos = {
-    kmRecorridoXdia: 30,
+    kmRecorridoXdia: 42,
     rendimientoNaftaXlt: 12,
     costoCombustible: 44,
     servAnuales: 1,

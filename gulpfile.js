@@ -19,17 +19,11 @@ var rootFile = '';
 var apiFolder = 'php';
 var imgFolder = 'images';
 
-//gulp.task('watch', ['browserSync', 'sass', 'useref'], function () {
-  //gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
- // gulp.watch('*.html', browserSync.reload);
- // gulp.watch(rootFile + 'js/**/*.js', browserSync.reload);
-//});
-
-gulp.task('watch', function() {
-    gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
-    gulp.watch(rootFile + 'css/**/*.css', ['useref']);
-    gulp.watch(rootFile + 'js/**/*.js', ['useref']);
-    gulp.watch(rootFile + '*.html', ['useref']);
+gulp.task('watch', function () {
+  gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
+  gulp.watch(rootFile + 'css/**/*.css', ['useref']);
+  gulp.watch(rootFile + 'js/**/*.js', ['useref']);
+  gulp.watch(rootFile + '*.html', ['useref']);
 });
 
 gulp.task('build', function (callback) {
@@ -51,8 +45,10 @@ gulp.task('api', function () {
 });
 
 gulp.task('templates', function () {
-  return gulp.src('resources/widgets/**/*.html')
-  .pipe(gulp.dest('dist/resources/widgets'));
+  return gulp.src(rootFile + 'templates/**/*.html')
+  .pipe(htmlmin({collapseWhitespace: true,
+    removeComments: true}))
+  .pipe(gulp.dest('dist/templates/'));
 });
 
 gulp.task('sass', function () {
