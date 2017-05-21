@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2017, 3:33:21 AM
+    Author     : Alexander
+*/
+#fb:hover, #tw:hover, .jx-title {
+  color: #FFFFFF !important; }
+
+.osc {
+  background-color: #252525 !important; }
+
+.clar, jx-container-slope.jx-top-slope.jx-left-slope.jx-default-bg.clar {
+  background-color: #3d3d3d !important; }
+
+html {
+  background-color: #3d3d3d !important; }
+
+.escItem {
+  background: #565656;
+  box-shadow: 0 0 22px #6f6f6f; }
+
+.escItem:hover > div {
+  background: #565656;
+  box-shadow: 0 0 22px #565656; }
+
+.esploop {
+  background: #565656;
+  box-shadow: 0 0 22px #565656;
+  margin-bottom: 50px;
+  padding: 40px 35px;
+  margin-left: 0;
+  margin-right: 0; }
+  .esploop .jx-title {
+    margin-bottom: 40px;
+    font-family: emin !important;
+    text-align: center; }
+  .esploop .escItem:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
