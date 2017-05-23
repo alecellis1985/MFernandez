@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : May 10, 2017, 1:26:58 AM
     Author     : Alexander
 */
@@ -133,7 +133,7 @@ and open the template in the editor.
   transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-  font-size: 6em;    
+  font-size: 6em;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -142,18 +142,18 @@ and open the template in the editor.
 .fade-carousel .carousel-inner .item .hero {
   opacity: 0;
   -webkit-transition: 2s all ease-in-out .1s;
-  -moz-transition: 2s all ease-in-out .1s; 
-  -ms-transition: 2s all ease-in-out .1s; 
-  -o-transition: 2s all ease-in-out .1s; 
-  transition: 2s all ease-in-out .1s; 
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
 }
 .fade-carousel .carousel-inner .item.active .hero {
   opacity: 1;
   -webkit-transition: 2s all ease-in-out .1s;
-  -moz-transition: 2s all ease-in-out .1s; 
-  -ms-transition: 2s all ease-in-out .1s; 
-  -o-transition: 2s all ease-in-out .1s; 
-  transition: 2s all ease-in-out .1s;    
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
 }
 
 /********************************/
@@ -185,4 +185,84 @@ and open the template in the editor.
 .carousel-control.left,.carousel-control.right {
   background-image:none!important;
   background-repeat:none!important;
+}
+
+//
+// LOOP
+//
+
+.design-title {
+    position: absolute;
+    top: 0;
+    margin: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 32px;
+}
+.design-title-2{
+    position: absolute;
+    top: 0;
+    margin: 30px;
+    margin-top: 65px;
+    color: white;
+    font-size: 32px;
+}
+.design-text{
+    position: absolute;
+    top: 0;
+    margin: 30px;
+    color: white;
+    margin-top: 120px;
+    margin-right: 64%;
+}
+.right-container{
+    margin-right: 0;
+    margin-left: 60%;
+    margin-top: 15px;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    color: white;
+    .design-title{
+        top: 0;
+        position: relative;
+        color: white;
+        margin-top: 0;
+        font-size: 32px;
+        margin-left: 0;
+        margin-bottom: 7px
+    }
+}
+.left-container{
+    margin-right: 60%;
+    margin-left: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    color: white;
+    .design-title{
+        top: 0;
+        position: relative;
+        color: white;
+        margin-top: 0;
+        font-size: 32px;
+        margin-left: 10px;
+        margin-bottom: 7px
+    }
+}
+.xs-margin-bottom{
+    margin-bottom: 5px;
+}
+.extra-margin-left{
+    margin-left: 62%;
+}
+.less-margin-right{
+    margin-right: 50%;
+}
+.extra-margin-right{
+    margin-right: 69%;
+}
+.no-padding-right{
+    padding-right: 0px;
 }

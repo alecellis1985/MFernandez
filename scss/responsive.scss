@@ -3,16 +3,18 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : May 7, 2017, 10:02:15 PM
     Author     : Alexander
 */
 
-@media (max-width: 768px) { 
-
+@media (max-width: 770px) {
+    .xs-margin-top{
+        padding-top: 55px !important;
+    }
 }
 
-@media (min-width: 769px) { 
+@media (min-width: 769px) {
   .escItem:hover>div{
     position: absolute;
     padding: 15px;
@@ -24,9 +26,35 @@ and open the template in the editor.
     left: 0;
   }
 }
-@media (min-width: 992px){ 
+@media (min-width: 992px){
 
 }
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
+}
+
+@media (max-width: 680px) {
+    .xs-text{
+        position: relative;
+        top: 0;
+        margin: 0;
+        padding: 30px;
+        color: white;
+        background: rgba(49, 42, 42, 0.51);
+    }
+    .xs-background-light-blue{
+        background: rgba(0, 180, 208, 0.74);
+    }
+    .xs-background-yellow{
+        background: rgba(164, 108, 0, 0.82);
+    }
+    .xs-background-red{
+        background: rgba(97, 14, 28, 0.85);
+    }
+    .xs-background-green{
+        background: rgb(57, 154, 112);
+    }
+    .xs-background-purple{
+        background: rgba(146, 22, 218, 0.75);
+    }
 }
