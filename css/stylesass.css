@@ -236,3 +236,16 @@ and open the template in the editor.
 
 .no-padding-right {
   padding-right: 0px; }
+
+.icon-img {
+  height: 30px;
+  top: -3px; }
+
+.white-icon {
+  font-size: 18px;
+  color: white !important;
+  margin-right: 2px !important;
+  margin-left: 2px; }
+
+.container .twelve.columns {
+  width: 610px; }
