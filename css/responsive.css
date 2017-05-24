@@ -7,10 +7,6 @@ and open the template in the editor.
     Created on : May 7, 2017, 10:02:15 PM
     Author     : Alexander
 */
-@media (max-width: 770px) {
-  .xs-margin-top {
-    padding-top: 55px !important; } }
-
 @media (min-width: 769px) {
   .escItem:hover > div {
     position: absolute;
@@ -21,6 +17,50 @@ and open the template in the editor.
     box-shadow: 0 0 22px #6f6f6f;
     top: 0;
     left: 0; } }
+
+@media (min-width: 1100px) {
+  .design-title .title-size {
+    font-size: 50px; }
+  .design-title img {
+    width: 90px; }
+  .design-title p.xs-text {
+    font-size: 20px;
+    margin-top: 20px; }
+  .design-text {
+    font-size: 20px; }
+  .responsive-margin-left .design-title, .responsive-margin-right .design-title, .right-container .design-title {
+    font-size: 50px;
+    font-family: avenir; }
+  .responsive-margin-left p img, .responsive-margin-right p img, .right-container p img {
+    width: 90px; }
+  .responsive-margin-left div img, .responsive-margin-right div img, .right-container div img {
+    width: 120px !important; }
+  .responsive-margin-left div span, .responsive-margin-right div span, .right-container div span {
+    font-size: 30px;
+    font-family: avenir; }
+  .responsive-margin-left p, .responsive-margin-right p, .right-container p {
+    font-family: avenir;
+    margin-top: 5px;
+    font-size: 20px; } }
+
+@media (min-width: 904px) {
+  .responsive-margin-left {
+    margin: 25px; }
+  .responsive-margin-right {
+    margin: 25px; } }
+
+@media (min-width: 860px) {
+  .responsive-margin-left {
+    margin-left: 61% !important; }
+  .responsive-margin-right {
+    margin-right: 63% !important;
+    margin: 20px; } }
+
+@media (min-width: 681px) {
+  .xs-show {
+    display: none; }
+  .xs-hide {
+    display: block !important; } }
 
 @media (max-width: 680px) {
   .xs-text {
@@ -39,4 +79,13 @@ and open the template in the editor.
   .xs-background-green {
     background: #399a70; }
   .xs-background-purple {
-    background: rgba(146, 22, 218, 0.75); } }
+    background: rgba(146, 22, 218, 0.75); }
+  .xs-background-black {
+    background: #1b1919;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important; }
+  .xs-show {
+    display: block !important; }
+  .xs-hide {
+    display: none; } }

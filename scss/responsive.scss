@@ -10,7 +10,7 @@ and open the template in the editor.
 
 @media (max-width: 770px) {
     .xs-margin-top{
-        padding-top: 55px !important;
+        //padding-top: 55px !important;
     }
 }
 
@@ -26,11 +26,79 @@ and open the template in the editor.
     left: 0;
   }
 }
-@media (min-width: 992px){
 
+
+@media (min-width: 1100px) {
+    .design-title{
+        .title-size{
+            font-size: 50px;
+        }
+        img{
+            width: 90px;
+        }
+        p{
+            &.xs-text{
+                font-size: 20px;
+                margin-top: 20px;
+            }
+        }
+    }
+    .design-text{
+        font-size: 20px;
+    }
+    .responsive-margin-left, .responsive-margin-right, .right-container{
+        .design-title{
+            font-size: 50px;
+            font-family: avenir;
+        }
+        p{
+            img{
+                width: 90px;
+            }
+        }
+        div{
+            img{
+                width: 120px !important;
+            }
+            span{
+                font-size: 30px;
+                font-family: avenir;
+            }
+        }
+        p{
+            font-family: avenir;
+            margin-top: 5px;
+            font-size: 20px;
+        }
+    }
 }
-@media (min-width: 1200px) {
 
+@media (min-width: 904px){
+    .responsive-margin-left{
+        margin: 25px;
+    }
+    .responsive-margin-right{
+        margin: 25px;
+    }
+}
+
+@media (min-width: 860px){
+    .responsive-margin-left{
+        margin-left: 61% !important;
+    }
+    .responsive-margin-right{
+         margin-right: 63% !important;
+         margin: 20px;
+    }
+}
+
+@media (min-width: 681px) {
+    .xs-show{
+        display: none;
+    }
+    .xs-hide{
+        display: block !important;
+    }
 }
 
 @media (max-width: 680px) {
@@ -56,5 +124,17 @@ and open the template in the editor.
     }
     .xs-background-purple{
         background: rgba(146, 22, 218, 0.75);
+    }
+    .xs-background-black{
+        background: #1b1919;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    }
+    .xs-show{
+        display: block !important;
+    }
+    .xs-hide{
+        display: none;
     }
 }
