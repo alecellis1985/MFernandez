@@ -38,15 +38,24 @@ and open the template in the editor.
         }
         p{
             &.xs-text{
-                font-size: 20px;
+                font-size: 22px;
                 margin-top: 20px;
             }
         }
     }
     .design-text{
-        font-size: 20px;
+        font-size: 22px;
     }
-    .responsive-margin-left, .responsive-margin-right, .right-container{
+    .right-container {
+        p{
+            font-size: 22px !important;
+            font-family: avenir;
+        }
+        .design-title{
+            font-size: 50px !important;
+        }
+    }
+    .responsive-margin-left, .responsive-margin-right{
         .design-title{
             font-size: 50px;
             font-family: avenir;
@@ -68,7 +77,7 @@ and open the template in the editor.
         p{
             font-family: avenir;
             margin-top: 5px;
-            font-size: 20px;
+            font-size: 22px;
         }
     }
 }
@@ -79,6 +88,17 @@ and open the template in the editor.
     }
     .responsive-margin-right{
         margin: 25px;
+    }
+    #panel{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 840px){
+    .responsive-margin-right{
+        .avenir{
+            font-size: 16px;
+        }
     }
 }
 
@@ -98,6 +118,7 @@ and open the template in the editor.
     }
     .xs-hide{
         display: block !important;
+        font-size: 17px;
     }
 }
 

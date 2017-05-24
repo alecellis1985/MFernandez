@@ -24,30 +24,41 @@ and open the template in the editor.
   .design-title img {
     width: 90px; }
   .design-title p.xs-text {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 20px; }
   .design-text {
-    font-size: 20px; }
-  .responsive-margin-left .design-title, .responsive-margin-right .design-title, .right-container .design-title {
+    font-size: 22px; }
+  .right-container p {
+    font-size: 22px !important;
+    font-family: avenir; }
+  .right-container .design-title {
+    font-size: 50px !important; }
+  .responsive-margin-left .design-title, .responsive-margin-right .design-title {
     font-size: 50px;
     font-family: avenir; }
-  .responsive-margin-left p img, .responsive-margin-right p img, .right-container p img {
+  .responsive-margin-left p img, .responsive-margin-right p img {
     width: 90px; }
-  .responsive-margin-left div img, .responsive-margin-right div img, .right-container div img {
+  .responsive-margin-left div img, .responsive-margin-right div img {
     width: 120px !important; }
-  .responsive-margin-left div span, .responsive-margin-right div span, .right-container div span {
+  .responsive-margin-left div span, .responsive-margin-right div span {
     font-size: 30px;
     font-family: avenir; }
-  .responsive-margin-left p, .responsive-margin-right p, .right-container p {
+  .responsive-margin-left p, .responsive-margin-right p {
     font-family: avenir;
     margin-top: 5px;
-    font-size: 20px; } }
+    font-size: 22px; } }
 
 @media (min-width: 904px) {
   .responsive-margin-left {
     margin: 25px; }
   .responsive-margin-right {
-    margin: 25px; } }
+    margin: 25px; }
+  #panel {
+    font-size: 22px; } }
+
+@media (max-width: 840px) {
+  .responsive-margin-right .avenir {
+    font-size: 16px; } }
 
 @media (min-width: 860px) {
   .responsive-margin-left {
@@ -60,7 +71,8 @@ and open the template in the editor.
   .xs-show {
     display: none; }
   .xs-hide {
-    display: block !important; } }
+    display: block !important;
+    font-size: 17px; } }
 
 @media (max-width: 680px) {
   .xs-text {
