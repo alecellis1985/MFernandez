@@ -397,3 +397,15 @@ p{
     font-family: avenir;
     font-weight: normal;
 }
+a&.icon-menu-button{
+    text-align: center;
+    padding: 15px 15px;
+    height: 120px;
+    i{
+        width: 70px;
+    }
+}
+.icon-menu-img{
+    width: 107px;
+    margin: -6px;
+}

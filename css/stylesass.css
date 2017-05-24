@@ -358,3 +358,24 @@ p {
 .xs-text {
   font-family: avenir;
   font-weight: normal; }
+
+.icon-menu-button {
+  text-align: center;
+  padding: 15px 15px;
+  height: 120px; }
+  .icon-menu-button i {
+    width: 70px; }
+  .icon-menu-button:hover {
+    cursor: auto; }
+    .icon-menu-button:hover img {
+      -webkit-filter: saturate(3);
+      filter: saturate(3); }
+    .icon-menu-button:hover i {
+      color: #ecec1f !important; }
+
+.icon-menu-img {
+  width: 107px;
+  margin: -6px; }
+  .icon-menu-img :hover {
+    -webkit-filter: saturate(3);
+    filter: saturate(3); }
