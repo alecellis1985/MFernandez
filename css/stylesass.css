@@ -371,7 +371,8 @@ p {
       -webkit-filter: saturate(3);
       filter: saturate(3); }
     .icon-menu-button:hover i {
-      color: #ecec1f !important; }
+
+    }
 
 .icon-menu-img {
   width: 107px;
