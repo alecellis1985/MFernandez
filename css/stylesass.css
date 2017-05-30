@@ -359,24 +359,20 @@ p {
   font-family: avenir;
   font-weight: normal; }
 
-.icon-menu-button {
+a.icon-menu-button {
   text-align: center;
   padding: 15px 15px;
   height: 120px; }
-  .icon-menu-button i {
+  a.icon-menu-button i {
     width: 70px; }
-  .icon-menu-button:hover {
-    cursor: auto; }
-    .icon-menu-button:hover img {
-      -webkit-filter: saturate(3);
-      filter: saturate(3); }
-    .icon-menu-button:hover i {
-
-    }
 
 .icon-menu-img {
   width: 107px;
   margin: -6px; }
-  .icon-menu-img :hover {
-    -webkit-filter: saturate(3);
-    filter: saturate(3); }
+
+.nav-down {
+  top: 0;
+  transition: top 0.8s ease-in-out; }
+
+.nav-up {
+  top: -200px; }

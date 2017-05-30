@@ -3,27 +3,18 @@
   "use strict";
 
   var Home = {
-
     initialized: false,
-
     initialize: function () {
-
       if (this.initialized)
         return;
       this.initialized = true;
-
       this.build();
-
       this.menu();
       this.carousel();
     },
-
     build: function (options) {
-
-
       // Home Slider#1
       // Revolution Slider Initialize
-
       $(".home-slider-1 .tp-banner").each(function () {
 
         var slider = $(this);
@@ -65,8 +56,6 @@
 
 
       });
-
-
     },
 
     menu: function () {

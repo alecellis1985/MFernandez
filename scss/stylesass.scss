@@ -192,220 +192,233 @@ and open the template in the editor.
 //
 
 .design-title {
-    position: absolute;
-    top: 0;
-    margin: 30px;
-    margin-top: 30px;
-    color: white;
-    font-size: 40px;
-    font-family: avenir;
-    font-weight: bold;
+  position: absolute;
+  top: 0;
+  margin: 30px;
+  margin-top: 30px;
+  color: white;
+  font-size: 40px;
+  font-family: avenir;
+  font-weight: bold;
 }
 .design-title-2{
-    position: absolute;
-    top: 0;
-    margin: 30px;
-    margin-top: 67px;
-    color: white;
-    font-size: 40px;
-    font-family: avenir;
-    font-weight: bold;
+  position: absolute;
+  top: 0;
+  margin: 30px;
+  margin-top: 67px;
+  color: white;
+  font-size: 40px;
+  font-family: avenir;
+  font-weight: bold;
 }
 .design-text{
-    position: absolute;
-    top: 0;
-    margin: 30px;
-    color: white;
-    margin-top: 120px;
-    margin-right: 64%;
-    font-family: avenir;
-    font-size: 18px;
-    z-index:999;
+  position: absolute;
+  top: 0;
+  margin: 30px;
+  color: white;
+  margin-top: 120px;
+  margin-right: 64%;
+  font-family: avenir;
+  font-size: 18px;
+  z-index:999;
 }
 .right-container{
-    margin-right: 0;
-    margin-left: 60%;
-    margin-top: 15px;
-    margin-right: 20px;
-    position: absolute;
+  margin-right: 0;
+  margin-left: 60%;
+  margin-top: 15px;
+  margin-right: 20px;
+  position: absolute;
+  top: 0;
+  color: white;
+  .design-title{
     top: 0;
+    position: relative;
     color: white;
-    .design-title{
-        top: 0;
-        position: relative;
-        color: white;
-        margin-top: 0;
-        font-size: 32px;
-        margin-left: 0;
-        margin-bottom: 7px
-    }
+    margin-top: 0;
+    font-size: 32px;
+    margin-left: 0;
+    margin-bottom: 7px
+  }
 }
 .left-container{
-    margin-right: 60%;
-    margin-left: 0;
-    margin-top: 15px;
-    margin-left: 20px;
-    position: absolute;
+  margin-right: 60%;
+  margin-left: 0;
+  margin-top: 15px;
+  margin-left: 20px;
+  position: absolute;
+  top: 0;
+  color: white;
+  .design-title{
     top: 0;
+    position: relative;
     color: white;
-    .design-title{
-        top: 0;
-        position: relative;
-        color: white;
-        margin-top: 0;
-        font-size: 32px;
-        margin-left: 10px;
-        margin-bottom: 7px
-    }
+    margin-top: 0;
+    font-size: 32px;
+    margin-left: 10px;
+    margin-bottom: 7px
+  }
 }
 .xs-margin-bottom{
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 .extra-margin-left{
-    margin-left: 62%;
+  margin-left: 62%;
 }
 .less-margin-right{
-    margin-right: 50%;
+  margin-right: 50%;
 }
 .extra-margin-right{
-    margin-right: 69%;
+  margin-right: 69%;
 }
 .no-padding-right{
-    padding-right: 0px;
+  padding-right: 0px;
 }
 .icon-img{
-    height: 100%;
-    top: -3px;
-    width: 40px;
-    padding: 0 5px;
-    &.xs-margin-right{
-        margin-right: 4px;
-    }
+  height: 100%;
+  top: -3px;
+  width: 40px;
+  padding: 0 5px;
+  &.xs-margin-right{
+    margin-right: 4px;
+  }
 }
 .white-icon{
-    font-size: 18px;
-    color: white !important;
-    margin-right: 2px !important;
-    margin-left: 2px;
-    height: 100%;
-    top: -3px;
-    width: 30px;
-    margin: 0 0px 0 10px;
-    &.xs-padding-sides{
-        padding-right: 5px;
-        padding-left: 5px;
-    }
+  font-size: 18px;
+  color: white !important;
+  margin-right: 2px !important;
+  margin-left: 2px;
+  height: 100%;
+  top: -3px;
+  width: 30px;
+  margin: 0 0px 0 10px;
+  &.xs-padding-sides{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
 .container .twelve.columns{
-    width: 610px;
+  width: 610px;
 }
 .white-menu{
-   li{
-       a{
-            padding: 19px 0px 22px;
-            color: #fff;
-            font-size: 15px;
-       }
-   }
+  li{
+    a{
+      padding: 19px 0px 22px;
+      color: #fff;
+      font-size: 15px;
+    }
+  }
 }
 #myTopnav.responsive{
-        height: 450px !important;
+  height: 450px !important;
 }
 @font-face {
-    font-family: avenirNextCondensed;
-    src: url('../fonts/Avenir Next Condensed.ttc');
+  font-family: avenirNextCondensed;
+  src: url('../fonts/Avenir Next Condensed.ttc');
 }
 .avenirCondensed{
-    font-family: avenirNextCondensed;
+  font-family: avenirNextCondensed;
 }
 @font-face {
-    font-family: avenirNext;
-    src: url('../fonts/Avenir Next.ttc');
+  font-family: avenirNext;
+  src: url('../fonts/Avenir Next.ttc');
 }
 .avenirNext{
-    font-family: avenirNext;
+  font-family: avenirNext;
 }
 @font-face {
-    font-family: avenir;
-    src: url('../fonts/Avenir.ttc');
+  font-family: avenir;
+  src: url('../fonts/Avenir.ttc');
 }
 
 .avenir{
-    font-family: avenir;
-    font-size: 18px;
+  font-family: avenir;
+  font-size: 18px;
 }
 @font-face {
-    font-family: bubblebodyNeueBold;
-    src: url('../fonts/BubbleboddyNeue-Bold Trial.ttf');
+  font-family: bubblebodyNeueBold;
+  src: url('../fonts/BubbleboddyNeue-Bold Trial.ttf');
 }
 
 .bubblebodyNeueBold{
-    font-family: bubblebodyNeueBold;
+  font-family: bubblebodyNeueBold;
 }
 @font-face {
-    font-family: bubblebodyNeueExtraBold;
-    src: url('../fonts/BubbleboddyNeue-ExtraBold Trial.ttf');
+  font-family: bubblebodyNeueExtraBold;
+  src: url('../fonts/BubbleboddyNeue-ExtraBold Trial.ttf');
 }
 .bubblebodyNeueExtraBold{
-    font-family: bubblebodyNeueExtraBold;
+  font-family: bubblebodyNeueExtraBold;
 }
 @font-face {
-    font-family: bubblebodyNeueLight;
-    src: url('../fonts/BubbleboddyNeue-Light Trial.ttf');
+  font-family: bubblebodyNeueLight;
+  src: url('../fonts/BubbleboddyNeue-Light Trial.ttf');
 }
 .bubblebodyNeueLight{
-    font-family: bubblebodyNeueLight;
+  font-family: bubblebodyNeueLight;
 }
 @font-face {
-    font-family: bubblebodyNeue;
-    src: url('../fonts/bubbleboddyneue-regular trial.ttf');
+  font-family: bubblebodyNeue;
+  src: url('../fonts/bubbleboddyneue-regular trial.ttf');
 }
 .bubblebodyNeue{
-    font-family: bubblebodyNeue;
+  font-family: bubblebodyNeue;
 }
 .body-img{
-    width: 70px;
+  width: 70px;
 }
 .title-size{
-    font-size: 40px;
-    margin-bottom: 3px;
+  font-size: 40px;
+  margin-bottom: 3px;
 }
 
 .title-size-2{
-    padding-left: 2px;
-    font-family: avenir;
-    font-weight: bold;
-    font-size: 25px;
+  padding-left: 2px;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 25px;
 }
 .title-img{
-    width: 85px;
+  width: 85px;
 }
 .title-size-3{
-    margin-bottom: 0;
-    padding-left: 0;
-    font-size: 23px;
-    font-family: avenir;
-    font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 23px;
+  font-family: avenir;
+  font-weight: bold;
 }
 p{
-    z-index:999;
+  z-index:999;
 }
 .big-img{
-    width:110px;
+  width:110px;
 }
 .xs-text{
-    font-family: avenir;
-    font-weight: normal;
+  font-family: avenir;
+  font-weight: normal;
 }
-a&.icon-menu-button{
+
+a{
+  &.icon-menu-button{
     text-align: center;
     padding: 15px 15px;
     height: 120px;
     i{
-        width: 70px;
+      width: 70px;
     }
+  }
 }
+
 .icon-menu-img{
-    width: 107px;
-    margin: -6px;
+  width: 107px;
+  margin: -6px;
+}
+
+.nav-down{
+  top: 0;
+  transition: top 0.8s ease-in-out;
+}
+
+.nav-up {
+  top: -200px;
 }

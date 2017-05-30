@@ -18,8 +18,8 @@ var htmlmin = require('gulp-htmlmin');
 var rootFile = '';
 var apiFolder = 'php';
 var imgFolder = 'images';
-var gds = require('gulp-dev-server');
-var rootFile = ""; 
+//var gds = require('gulp-dev-server');
+var rootFile = "";
 
 gulp.task('watch', function () {
   gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
@@ -28,12 +28,12 @@ gulp.task('watch', function () {
   gulp.watch(rootFile + '*.html', ['useref']);
 });
 
-gulp.task('watch', ['browserSync'], function (){
-  gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
-  gulp.watch(rootFile + 'css/**/*.css', ['useref']);
-  gulp.watch(rootFile + 'js/**/*.js', ['useref']);
-  gulp.watch(rootFile + '*.html', ['useref']);
-})
+//gulp.task('watch', ['browserSync'], function (){
+  //gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
+  //gulp.watch(rootFile + 'css/**/*.css', ['useref']);
+  //gulp.watch(rootFile + 'js/**/*.js', ['useref']);
+  //gulp.watch(rootFile + '*.html', ['useref']);
+//})
 
 gulp.task('build', function (callback) {
   runSequence('clean:dist',
