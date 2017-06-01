@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 31, 2017, 5:30:29 PM
+    Author     : Alexander
+*/
+body,#menu_no_cel{
+  background-color: #3d3d3d!important;;
+}
+#fb:hover, #tw:hover, .jx-title{
+  color:#FFFFFF!important;
+}
+
+.osc,#aa{
+  background-color: #252525!important;
+}
+
+.clar,jx-container-slope.jx-top-slope.jx-left-slope.jx-default-bg.clar,#bb,#bbb{
+  background-color: #3d3d3d!important;
+}
+
+
+html{
+  background-color: #3d3d3d!important;
+}
+
+.escItem {
+  background: #565656;
+  box-shadow: 0 0 22px #6f6f6f;
+}
+
+.escItem:hover>div {
+  background: #565656;
+  box-shadow: 0 0 22px #565656;
+}
+
+.esploop{
+  background: #565656;
+  box-shadow: 0 0 22px #565656;
+  margin-bottom: 50px;
+  padding: 40px 35px;
+  margin-left: 0;
+  margin-right: 0;
+  .jx-title{
+    margin-bottom: 40px;
+    font-family: emin !important;text-align: center;
+  }
+
+  .escItem {
+    &:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+}
+ul.icons-section{
+  li{
+    display: inline;
+    a{
+      .white-icon{
+        font-size: 46px;
+        width: 80px;
+        top: 13px;
+        position: relative;
+        border: 1px solid;
+        border-radius: 100%;
+        height: 80px;
+        margin-top: 10px;
+        padding-top: 15px;
+        &:hover{
+          transition: 0.9s;
+          transform: rotateY(180deg);
+        }
+      }
+      img{
+        width: 100px;
+        transition: all 0.3s ease-in-out 0s;
+        &:hover{
+          transform: rotate(360deg);
+          transition: all 0.3s ease-in-out 0s;
+        }
+      }
+    }
+  }
+}

@@ -59,7 +59,7 @@
     },
 
     menu: function () {
-      $("#myTopnav li a, #jx-main-menu li a").click(function (e) {
+      $("#myTopnav li a, #jx-main-menu li a,.icons-section a").click(function (e) {
         e.preventDefault();
         var $thisBlock = $($(this).attr('href'));
         if ($thisBlock) {
