@@ -60,37 +60,40 @@
 
     menu: function () {
       $("#myTopnav li a, #jx-main-menu li a,.icons-section a").click(function (e) {
-        e.preventDefault();
-        var $thisBlock = $($(this).attr('href'));
-        if ($thisBlock) {
-          $('html, body').animate({
-            scrollTop: $thisBlock.offset().top
-          }, 1000);
+        var href = $(this).attr('href');
+        if (href.indexOf('#') !== -1) {
+          e.preventDefault();
+          var $thisBlock = $($(this).attr('href'));
+          if ($thisBlock) {
+            $('html, body').animate({
+              scrollTop: $thisBlock.offset().top
+            }, 1000);
+          }
+          return false;
         }
-        return false;
       });
     },
     carousel: function () {
       /*var $item = $('.carousel .item');
-      var $wHeight = $(window).height();
-      $item.eq(0).addClass('active');
-      $item.height($wHeight);
-      $item.addClass('full-screen');*/
-/*
-      $('.carousel img').each(function () {
-        var $src = $(this).attr('src');
-        var $color = $(this).attr('data-color');
-        $(this).parent().css({
-          'background-image': 'url(' + $src + ')',
-          'background-color': $color
-        });
-        $(this).remove();
-      });*/
-/*
-      $(window).on('resize', function () {
-        $wHeight = $(window).height();
-        $item.height($wHeight);
-      });*/
+       var $wHeight = $(window).height();
+       $item.eq(0).addClass('active');
+       $item.height($wHeight);
+       $item.addClass('full-screen');*/
+      /*
+       $('.carousel img').each(function () {
+       var $src = $(this).attr('src');
+       var $color = $(this).attr('data-color');
+       $(this).parent().css({
+       'background-image': 'url(' + $src + ')',
+       'background-color': $color
+       });
+       $(this).remove();
+       });*/
+      /*
+       $(window).on('resize', function () {
+       $wHeight = $(window).height();
+       $item.height($wHeight);
+       });*/
       /*
        $('.carousel').carousel({
        interval: 6000,
