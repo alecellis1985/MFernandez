@@ -14,6 +14,12 @@ and open the template in the editor.
     }
 }
 
+@media (min-width: 840px) {
+    .xs-text{
+        font-size: 20px !important;
+    }
+}
+
 @media (min-width: 769px) {
   .escItem:hover>div{
     position: absolute;
@@ -24,6 +30,12 @@ and open the template in the editor.
     box-shadow: 0 0 22px #6f6f6f;
     top: 0;
     left: 0;
+  }
+  .design-title{
+      margin-top:12%;
+  }
+  .left-container{
+        margin-top: 5% !important;
   }
 }
 
@@ -58,7 +70,6 @@ and open the template in the editor.
     .responsive-margin-left, .responsive-margin-right{
         .design-title{
             font-size: 50px;
-            font-family: avenir;
         }
         p{
             img{
@@ -71,7 +82,6 @@ and open the template in the editor.
             }
             span{
                 font-size: 30px;
-                font-family: avenir;
             }
         }
         p{
@@ -79,6 +89,13 @@ and open the template in the editor.
             margin-top: 5px;
             font-size: 22px;
         }
+    }
+}
+
+
+@media (min-width: 1000px){
+    .right-container{
+        margin-top: 7% !important;
     }
 }
 
@@ -91,6 +108,9 @@ and open the template in the editor.
     }
     #panel{
         font-size: 22px;
+    }
+    .left-container{
+        margin-top: 7% !important;
     }
 }
 

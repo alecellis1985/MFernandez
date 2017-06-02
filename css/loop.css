@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : May 31, 2017, 5:30:29 PM
     Author     : Alexander
 */
-body {
+body, #menu_no_cel {
   background-color: #3d3d3d !important; }
 
 #fb:hover, #tw:hover, .jx-title {
