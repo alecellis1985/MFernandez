@@ -26,13 +26,14 @@ gulp.task('watch', function () {
   gulp.watch(rootFile + 'css/**/*.css', ['useref']);
   gulp.watch(rootFile + 'js/**/*.js', ['useref']);
   gulp.watch(rootFile + '*.html', ['useref']);
+  gulp.watch(rootFile + imgFolder + '/**/*.+(png|jpg|jpeg|gif|svg|PNG)', ['images']);
 });
 
 //gulp.task('watch', ['browserSync'], function (){
-  //gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
-  //gulp.watch(rootFile + 'css/**/*.css', ['useref']);
-  //gulp.watch(rootFile + 'js/**/*.js', ['useref']);
-  //gulp.watch(rootFile + '*.html', ['useref']);
+//gulp.watch(rootFile + 'scss/**/*.scss', ['sass']);
+//gulp.watch(rootFile + 'css/**/*.css', ['useref']);
+//gulp.watch(rootFile + 'js/**/*.js', ['useref']);
+//gulp.watch(rootFile + '*.html', ['useref']);
 //})
 
 gulp.task('build', function (callback) {
