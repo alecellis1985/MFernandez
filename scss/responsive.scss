@@ -9,9 +9,9 @@ and open the template in the editor.
 */
 
 @media (max-width: 770px) {
-    .xs-margin-top{
-        //padding-top: 55px !important;
-    }
+  .xs-margin-top{
+    //padding-top: 55px !important;
+  }
 }
 
 @media (min-width: 769px) {
@@ -29,133 +29,142 @@ and open the template in the editor.
 
 
 @media (min-width: 1100px) {
-    .design-title{
-        .title-size{
-            font-size: 50px;
-        }
-        img{
-            width: 90px;
-        }
-        p{
-            &.xs-text{
-                font-size: 22px;
-                margin-top: 20px;
-            }
-        }
+  .design-title{
+    .title-size{
+      font-size: 50px;
     }
-    .design-text{
+    img{
+      width: 90px;
+    }
+    p{
+      &.xs-text{
         font-size: 22px;
+        margin-top: 20px;
+      }
     }
-    .right-container {
-        p{
-            font-size: 22px !important;
-            font-family: avenir;
-        }
-        .design-title{
-            font-size: 50px !important;
-        }
+  }
+  .design-text{
+    font-size: 22px;
+  }
+  .right-container {
+    p{
+      font-size: 22px !important;
+      font-family: avenir;
     }
-    .responsive-margin-left, .responsive-margin-right{
-        .design-title{
-            font-size: 50px;
-            font-family: avenir;
-        }
-        p{
-            img{
-                width: 90px;
-            }
-        }
-        div{
-            img{
-                width: 120px !important;
-            }
-            span{
-                font-size: 30px;
-                font-family: avenir;
-            }
-        }
-        p{
-            font-family: avenir;
-            margin-top: 5px;
-            font-size: 22px;
-        }
+    .design-title{
+      font-size: 50px !important;
     }
+  }
+  .responsive-margin-left, .responsive-margin-right{
+    .design-title{
+      font-size: 50px;
+      font-family: avenir;
+    }
+    p{
+      img{
+        width: 90px;
+      }
+    }
+    div{
+      img{
+        width: 120px !important;
+      }
+      span{
+        font-size: 30px;
+        font-family: avenir;
+      }
+    }
+    p{
+      font-family: avenir;
+      margin-top: 5px;
+      font-size: 22px;
+    }
+  }
 }
 
 @media (min-width: 904px){
-    .responsive-margin-left{
-        margin: 25px;
-    }
-    .responsive-margin-right{
-        margin: 25px;
-    }
-    #panel{
-        font-size: 22px;
-    }
+  .responsive-margin-left{
+    margin: 25px;
+  }
+  .responsive-margin-right{
+    margin: 25px;
+  }
+  #panel{
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 840px){
-    .responsive-margin-right{
-        .avenir{
-            font-size: 16px;
-        }
+  .responsive-margin-right{
+    .avenir{
+      font-size: 16px;
     }
+  }
 }
 
 @media (min-width: 860px){
-    .responsive-margin-left{
-        margin-left: 61% !important;
-    }
-    .responsive-margin-right{
-         margin-right: 63% !important;
-         margin: 20px;
-    }
+  .responsive-margin-left{
+    margin-left: 61% !important;
+  }
+  .responsive-margin-right{
+    margin-right: 63% !important;
+    margin: 20px;
+  }
+}
+@media (max-width: 702px){
+  ul.icons-section li a img{
+    margin-top: 10px!important;
+  }
+  
+  ul.icons-section li a .white-icon{
+    margin-top: 20px!important;
+  }
 }
 
 @media (min-width: 681px) {
-    .xs-show{
-        display: none;
-    }
-    .xs-hide{
-        display: block !important;
-        font-size: 17px;
-    }
+  .xs-show{
+    display: none;
+  }
+  .xs-hide{
+    display: block !important;
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 680px) {
-    .xs-text{
-        position: relative;
-        top: 0;
-        margin: 0;
-        padding: 30px;
-        color: white;
-        background: rgba(49, 42, 42, 0.51);
-    }
-    .xs-background-light-blue{
-        background: rgba(0, 180, 208, 0.74);
-    }
-    .xs-background-yellow{
-        background: rgba(164, 108, 0, 0.82);
-    }
-    .xs-background-red{
-        background: rgba(97, 14, 28, 0.85);
-    }
-    .xs-background-green{
-        background: rgb(57, 154, 112);
-    }
-    .xs-background-purple{
-        background: rgba(146, 22, 218, 0.75);
-    }
-    .xs-background-black{
-        background: #1b1919;
-        margin-left: 0 !important;
-        margin-top: 0 !important;
-        margin-right: 0 !important;
-    }
-    .xs-show{
-        display: block !important;
-    }
-    .xs-hide{
-        display: none;
-    }
+  .xs-text{
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 30px;
+    color: white;
+    background: rgba(49, 42, 42, 0.51);
+  }
+  .xs-background-light-blue{
+    background: rgba(0, 180, 208, 0.74);
+  }
+  .xs-background-yellow{
+    background: rgba(164, 108, 0, 0.82);
+  }
+  .xs-background-red{
+    background: rgba(97, 14, 28, 0.85);
+  }
+  .xs-background-green{
+    background: rgb(57, 154, 112);
+  }
+  .xs-background-purple{
+    background: rgba(146, 22, 218, 0.75);
+  }
+  .xs-background-black{
+    background: #1b1919;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+  }
+  .xs-show{
+    display: block !important;
+  }
+  .xs-hide{
+    display: none;
+  }
 }

@@ -63,6 +63,13 @@ ul.icons-section{
   li{
     display: inline;
     a{
+      position:relative;
+      span{
+        position: absolute;
+        bottom: -64px;
+        left: 15px; 
+        color: white;
+      }
       .white-icon{
         font-size: 46px;
         width: 80px;
@@ -71,7 +78,7 @@ ul.icons-section{
         border: 1px solid;
         border-radius: 100%;
         height: 80px;
-        margin-top: 10px;
+        margin: 0;
         padding-top: 15px;
         &:hover{
           transition: 0.9s;

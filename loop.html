@@ -192,40 +192,48 @@
   <div class="row" style="padding-top: 16px;">
     <div class="col-xs-12 text-center">
       <ul class="icons-section">
-        <li> <!--icon-menu-button-->
+        <li style="position:relative"> <!--icon-menu-button-->
           <a href="#diseno"  class="rotate">
             <i class="white-icon fa fa-paint-brush"></i>
+            <span>Diseño</span>
           </a>
         </li>
         <li>
           <a href="#plegable">
             <img src="images/iconos loop-13.png"/>
+            <span>Plegable</span>
           </a>
         </li>
         <li>
           <a href="#bateria">
             <img src="images/iconos loop-10.png"/>
+            <span style="left:27px;">Batería</span>
           </a>
         </li>
         <li>
           <a href="#seguridad">
             <i class="white-icon fa fa-shield"></i>
+            <span style="left:6px;">Seguridad</span>
           </a>
         </li>
         <li>
           <a href="#colors">
             <img src="images/iconos loop-09.png"/>
+            <span style="left:21px;">Colores</span>
           </a>
         </li>
         <li>
           <a href="#panel">
             <img src="images/iconos loop-12.png"/>
+            <span style="left:29px;">Panel</span>
           </a>
         </li>
         <li>
           <a href="#luces">
             <img src="images/iconos loop-14.png"/>
+            <span style="left:26px;">Luces</span>
           </a>
+          
         </li>
       </ul>
     </div>
@@ -804,21 +812,6 @@
         </div>
       </div>
     </div>
-    <div id="aa" class="jx-container jx-padding-tiny jx-default-bg ">
-      <div id="bb" class="jx-container-slope jx-bottom-slope jx-right-slope" style="z-index: 999999;">
-        <!--<a href="http://www.indeed.com.uy/" target="_blank" style="font-family: emin !important;color: white;text-decoration: none;margin-left: 50%; font-size: x-small;">by indeed</a>-->
-      </div>
-      <div id="bbb" class="jx-container-slope jx-top-slope jx-left-slope jx-default-bg"></div>
-      <div class="container">
-        <div style="font-family: emin !important; color: white; font-size: 20px; margin-bottom: 20px;">Seguí todas nuestras novedades:</div>
-        <div class="jx-footer-social">
-          <ul>
-            <li><a href="https://www.facebook.com/EV-e-min-388983871261082/timeline/"><i class="fa fa-facebook" id="fb"></i></a></li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
   </div>
   <script>
     (function (i, s, o, g, r, a, m) {
@@ -857,6 +850,9 @@
         x.className = "topnav";
       }
     }
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
   </script>
 </body>
 </html>

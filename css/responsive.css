@@ -67,6 +67,12 @@ and open the template in the editor.
     margin-right: 63% !important;
     margin: 20px; } }
 
+@media (max-width: 702px) {
+  ul.icons-section li a img {
+    margin-top: 10px !important; }
+  ul.icons-section li a .white-icon {
+    margin-top: 20px !important; } }
+
 @media (min-width: 681px) {
   .xs-show {
     display: none; }
