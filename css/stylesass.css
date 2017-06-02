@@ -171,7 +171,6 @@ and open the template in the editor.
   margin-top: 30px;
   color: white;
   font-size: 40px;
-  font-family: avenir;
   font-weight: bold; }
 
 .design-title-2 {
@@ -181,7 +180,6 @@ and open the template in the editor.
   margin-top: 67px;
   color: white;
   font-size: 40px;
-  font-family: avenir;
   font-weight: bold; }
 
 .design-text {
@@ -329,7 +327,6 @@ and open the template in the editor.
 
 .title-size-2 {
   padding-left: 2px;
-  font-family: avenir;
   font-weight: bold;
   font-size: 25px; }
 
@@ -340,7 +337,6 @@ and open the template in the editor.
   margin-bottom: 0;
   padding-left: 0;
   font-size: 23px;
-  font-family: avenir;
   font-weight: bold; }
 
 p {

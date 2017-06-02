@@ -14,6 +14,12 @@ and open the template in the editor.
   }
 }
 
+@media (min-width: 840px) {
+    .xs-text{
+        font-size: 20px !important;
+    }
+}
+
 @media (min-width: 769px) {
   .escItem:hover>div{
     position: absolute;
@@ -25,73 +31,87 @@ and open the template in the editor.
     top: 0;
     left: 0;
   }
+  .design-title{
+      margin-top:12%;
+  }
+  .left-container{
+        margin-top: 5% !important;
+  }
 }
 
 
 @media (min-width: 1100px) {
-  .design-title{
-    .title-size{
-      font-size: 50px;
+    .design-title{
+        .title-size{
+            font-size: 50px;
+        }
+        img{
+            width: 90px;
+        }
+        p{
+            &.xs-text{
+                font-size: 22px;
+                margin-top: 20px;
+            }
+        }
     }
-    img{
-      width: 90px;
-    }
-    p{
-      &.xs-text{
+    .design-text{
         font-size: 22px;
-        margin-top: 20px;
-      }
     }
-  }
-  .design-text{
-    font-size: 22px;
-  }
-  .right-container {
-    p{
-      font-size: 22px !important;
-      font-family: avenir;
+    .right-container {
+        p{
+            font-size: 22px !important;
+            font-family: avenir;
+        }
+        .design-title{
+            font-size: 50px !important;
+        }
     }
-    .design-title{
-      font-size: 50px !important;
+    .responsive-margin-left, .responsive-margin-right{
+        .design-title{
+            font-size: 50px;
+        }
+        p{
+            img{
+                width: 90px;
+            }
+        }
+        div{
+            img{
+                width: 120px !important;
+            }
+            span{
+                font-size: 30px;
+            }
+        }
+        p{
+            font-family: avenir;
+            margin-top: 5px;
+            font-size: 22px;
+        }
     }
-  }
-  .responsive-margin-left, .responsive-margin-right{
-    .design-title{
-      font-size: 50px;
-      font-family: avenir;
+}
+
+
+@media (min-width: 1000px){
+    .right-container{
+        margin-top: 7% !important;
     }
-    p{
-      img{
-        width: 90px;
-      }
-    }
-    div{
-      img{
-        width: 120px !important;
-      }
-      span{
-        font-size: 30px;
-        font-family: avenir;
-      }
-    }
-    p{
-      font-family: avenir;
-      margin-top: 5px;
-      font-size: 22px;
-    }
-  }
 }
 
 @media (min-width: 904px){
-  .responsive-margin-left{
-    margin: 25px;
-  }
-  .responsive-margin-right{
-    margin: 25px;
-  }
-  #panel{
-    font-size: 22px;
-  }
+    .responsive-margin-left{
+        margin: 25px;
+    }
+    .responsive-margin-right{
+        margin: 25px;
+    }
+    #panel{
+        font-size: 22px;
+    }
+    .left-container{
+        margin-top: 7% !important;
+    }
 }
 
 @media (max-width: 840px){

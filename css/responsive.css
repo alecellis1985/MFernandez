@@ -7,6 +7,10 @@ and open the template in the editor.
     Created on : May 7, 2017, 10:02:15 PM
     Author     : Alexander
 */
+@media (min-width: 840px) {
+  .xs-text {
+    font-size: 20px !important; } }
+
 @media (min-width: 769px) {
   .escItem:hover > div {
     position: absolute;
@@ -16,7 +20,11 @@ and open the template in the editor.
     cursor: pointer;
     box-shadow: 0 0 22px #6f6f6f;
     top: 0;
-    left: 0; } }
+    left: 0; }
+  .design-title {
+    margin-top: 12%; }
+  .left-container {
+    margin-top: 5% !important; } }
 
 @media (min-width: 1100px) {
   .design-title .title-size {
@@ -34,19 +42,21 @@ and open the template in the editor.
   .right-container .design-title {
     font-size: 50px !important; }
   .responsive-margin-left .design-title, .responsive-margin-right .design-title {
-    font-size: 50px;
-    font-family: avenir; }
+    font-size: 50px; }
   .responsive-margin-left p img, .responsive-margin-right p img {
     width: 90px; }
   .responsive-margin-left div img, .responsive-margin-right div img {
     width: 120px !important; }
   .responsive-margin-left div span, .responsive-margin-right div span {
-    font-size: 30px;
-    font-family: avenir; }
+    font-size: 30px; }
   .responsive-margin-left p, .responsive-margin-right p {
     font-family: avenir;
     margin-top: 5px;
     font-size: 22px; } }
+
+@media (min-width: 1000px) {
+  .right-container {
+    margin-top: 7% !important; } }
 
 @media (min-width: 904px) {
   .responsive-margin-left {
@@ -54,7 +64,9 @@ and open the template in the editor.
   .responsive-margin-right {
     margin: 25px; }
   #panel {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .left-container {
+    margin-top: 7% !important; } }
 
 @media (max-width: 840px) {
   .responsive-margin-right .avenir {
