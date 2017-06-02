@@ -268,7 +268,7 @@ and open the template in the editor.
   font-size: 15px; }
 
 #myTopnav.responsive {
-  height: 450px !important; }
+  height: 235px !important; }
 
 @font-face {
   font-family: avenirNextCondensed;
@@ -370,3 +370,51 @@ a.icon-menu-button {
 
 .nav-up {
   top: -200px; }
+
+header {
+  background: #FFFFFF;
+  margin: 0;
+  border-bottom: 1px solid #bbbbbb; }
+
+#menu {
+  margin: 0; }
+
+.menu > li > a, .menu > li {
+  color: #525252;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+  font-family: Oswald, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.75rem;
+  letter-spacing: .2em; }
+  .menu > li > a .fa, .menu > li .fa {
+    color: #525252;
+    transition: 0.4s all ease-in-out;
+    padding-left: 5px;
+    font-size: 20px;
+    top: 1px;
+    position: relative; }
+
+.menu > li > a:hover, .menu > li:hover {
+  border-top-color: #FFFFFF !important;
+  color: #f26367 !important; }
+  .menu > li > a:hover .fa, .menu > li:hover .fa {
+    color: #f26367 !important; }
+
+.header-text {
+  position: absolute;
+  bottom: 10%;
+  left: 1.8%;
+  right: auto;
+  width: 96.66666666666666%;
+  color: #fff; }
+
+.header-text h2 {
+  font-size: 40px; }
+
+.header-text h2 {
+  font-size: 40px; }
+
+.socialNeticons a {
+  padding-right: 0 !important; }

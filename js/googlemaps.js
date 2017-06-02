@@ -13,7 +13,22 @@
       center: new google.maps.LatLng(-34.9016868, -56.2001515, 18), // New York
       // How you would like to style the map.
       // This is where you would paste any style found on Snazzy Maps.
-      styles: [{"featureType": "water", "elementType": "geometry.fill", "stylers": [{"color": "#d3d3d3"}]}, {"featureType": "transit", "stylers": [{"color": "#808080"}, {"visibility": "off"}]}, {"featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [{"visibility": "on"}, {"color": "#b3b3b3"}]}, {"featureType": "road.highway", "elementType": "geometry.fill", "stylers": [{"color": "#ffffff"}]}, {"featureType": "road.local", "elementType": "geometry.fill", "stylers": [{"visibility": "on"}, {"color": "#ffffff"}, {"weight": 1.8}]}, {"featureType": "road.local", "elementType": "geometry.stroke", "stylers": [{"color": "#d7d7d7"}]}, {"featureType": "poi", "elementType": "geometry.fill", "stylers": [{"visibility": "on"}, {"color": "#ebebeb"}]}, {"featureType": "administrative", "elementType": "geometry", "stylers": [{"color": "#a7a7a7"}]}, {"featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [{"color": "#ffffff"}]}, {"featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [{"color": "#ffffff"}]}, {"featureType": "landscape", "elementType": "geometry.fill", "stylers": [{"visibility": "on"}, {"color": "#efefef"}]}, {"featureType": "road", "elementType": "labels.text.fill", "stylers": [{"color": "#696969"}]}, {"featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{"visibility": "on"}, {"color": "#00B194"}]}, {"featureType": "poi", "elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {"featureType": "poi", "elementType": "labels", "stylers": [{"visibility": "off"}]}, {"featureType": "road.arterial", "elementType": "geometry.stroke", "stylers": [{"color": "#00B194"}]}, {"featureType": "road", "elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {}, {"featureType": "poi", "elementType": "geometry.fill", "stylers": [{"color": "#dadada"}]}]
+      styles: [{"featureType": "water", "elementType": "geometry.fill", "stylers": [{"color": "#d3d3d3"}]}, {"featureType": "transit", 
+          "stylers": [{"color": "#808080"}, {"visibility": "off"}]}, {"featureType": "road.highway", "elementType": "geometry.stroke", 
+          "stylers": [{"visibility": "on"}, {"color": "#b3b3b3"}]}, {"featureType": "road.highway", "elementType": "geometry.fill", 
+          "stylers": [{"color": "#ffffff"}]}, {"featureType": "road.local", "elementType": "geometry.fill", "stylers": [{"visibility": "on"}, 
+            {"color": "#ffffff"}, {"weight": 1.8}]}, {"featureType": "road.local", "elementType": "geometry.stroke", "stylers": [{"color": "#d7d7d7"}]}, 
+        {"featureType": "poi", "elementType": "geometry.fill", "stylers": [{"visibility": "on"}, {"color": "#ebebeb"}]}, 
+        {"featureType": "administrative", "elementType": "geometry", "stylers": [{"color": "#a7a7a7"}]}, 
+        {"featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [{"color": "#ffffff"}]}, 
+        {"featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [{"color": "#ffffff"}]}, 
+        {"featureType": "landscape", "elementType": "geometry.fill", "stylers": [{"visibility": "on"}, {"color": "#efefef"}]}, 
+        {"featureType": "road", "elementType": "labels.text.fill", "stylers": [{"color": "#696969"}]}, 
+        {"featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{"visibility": "on"}, {"color": "#00B194"}]}, 
+        {"featureType": "poi", "elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {"featureType": "poi", "elementType": "labels", 
+          "stylers": [{"visibility": "off"}]}, {"featureType": "road.arterial", "elementType": "geometry.stroke", "stylers": [{"color": "#00B194"}]}, 
+        {"featureType": "road", "elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {}, 
+        {"featureType": "poi", "elementType": "geometry.fill", "stylers": [{"color": "#dadada"}]}]
     };
     // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
