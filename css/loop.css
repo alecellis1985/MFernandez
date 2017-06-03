@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : May 31, 2017, 5:30:29 PM
     Author     : Alexander
 */
-body, #menu_no_cel {
+body {
   background-color: #3d3d3d !important; }
 
 #fb:hover, #tw:hover, .jx-title {
@@ -57,7 +57,9 @@ ul.icons-section li {
       position: absolute;
       bottom: -64px;
       left: 15px;
-      color: white; }
+      color: white;
+      font-family: bubblebodyNeueLight;
+      font-size: 18px; }
     ul.icons-section li a .white-icon {
       font-size: 46px;
       width: 80px;

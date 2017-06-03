@@ -94,6 +94,12 @@ and open the template in the editor.
   height: 10px;
   opacity: 1; }
 
+.carousel-indicators > li {
+  border: 1px solid #525252 !important; }
+
+.carousel-indicators > li.active {
+  background-color: #525252 !important; }
+
 /********************************/
 /*          Hero Headers        */
 /********************************/
