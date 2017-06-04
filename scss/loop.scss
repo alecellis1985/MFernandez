@@ -75,9 +75,9 @@ ul.icons-section {
             span {
                 position: absolute;
                 bottom: -64px;
-                left: 15px;
+                left: 10px;
                 color: white;
-                font-family: bubblebodyNeueLight;
+                font-family: bubblebodyNeueExtraBold;
                 font-size: 18px;
             }
 
@@ -109,4 +109,42 @@ ul.icons-section {
             }
         }
     }
+}
+
+.title-size, .title-size-2, .title-size-3, .design-title, h1 {
+    font-family: bubblebodyNeueExtraBold !important;
+}
+
+p {
+    font-family: avenir;
+    font-weight: 400;
+}
+
+h1 {
+    color: #fff;
+    font-size: 80px;
+    line-height: 70px;
+}
+
+p:not(.title-size) {
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.panelInst {
+    font-size: 80px;
+    width: 59%;
+    line-height: 70px;
+    margin-bottom: 18px;
+}
+
+#luces > div > div > div {
+    padding: 0;
+}
+
+.yellowS span {
+    background: #FFF100;
+    color: black;
+    display: inline-block;
+    padding: 2px 5px;
 }

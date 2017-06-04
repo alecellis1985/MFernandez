@@ -28,9 +28,9 @@ and open the template in the editor.
 
 @media (min-width: 1100px) {
   .design-title .title-size {
-    font-size: 50px; }
+    font-size: 80px; }
   .design-title img {
-    width: 90px; }
+    width: 130px; }
   .design-title p.xs-text {
     font-size: 22px;
     margin-top: 20px; }
@@ -48,7 +48,7 @@ and open the template in the editor.
   .responsive-margin-left div img, .responsive-margin-right div img {
     width: 120px !important; }
   .responsive-margin-left div span, .responsive-margin-right div span {
-    font-size: 30px; }
+    font-size: 33px; }
   .responsive-margin-left p, .responsive-margin-right p {
     font-family: avenir;
     margin-top: 5px;
