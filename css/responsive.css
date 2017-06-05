@@ -100,16 +100,6 @@ and open the template in the editor.
     padding: 30px;
     color: white;
     background: rgba(49, 42, 42, 0.51); }
-  .xs-background-light-blue {
-    background: rgba(0, 180, 208, 0.74); }
-  .xs-background-yellow {
-    background: rgba(164, 108, 0, 0.82); }
-  .xs-background-red {
-    background: rgba(97, 14, 28, 0.85); }
-  .xs-background-green {
-    background: #399a70; }
-  .xs-background-purple {
-    background: rgba(146, 22, 218, 0.75); }
   .xs-background-black {
     background: #1b1919;
     margin-left: 0 !important;
@@ -118,4 +108,7 @@ and open the template in the editor.
   .xs-show {
     display: block !important; }
   .xs-hide {
-    display: none; } }
+    display: none; }
+  p {
+    margin: 0;
+    color: #FFFFFF; } }

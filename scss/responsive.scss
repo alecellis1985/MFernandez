@@ -9,82 +9,94 @@ and open the template in the editor.
 */
 
 @media (max-width: 770px) {
-  .xs-margin-top{
-    //padding-top: 55px !important;
-  }
+    .xs-margin-top {
+        //padding-top: 55px !important;
+    }
 }
 
 @media (min-width: 840px) {
-    .xs-text{
+    .xs-text {
         font-size: 20px !important;
     }
 }
 
 @media (min-width: 769px) {
-  .escItem:hover>div{
-    position: absolute;
-    padding: 15px;
-    background: #00b194;
-    border-radius: 3px;
-    cursor: pointer;
-    box-shadow: 0 0 22px #6f6f6f;
-    top: 0;
-    left: 0;
-  }
-  .design-title{
-      margin-top:12%;
-  }
-  .left-container{
+    .escItem:hover > div {
+        position: absolute;
+        padding: 15px;
+        background: #00b194;
+        border-radius: 3px;
+        cursor: pointer;
+        box-shadow: 0 0 22px #6f6f6f;
+        top: 0;
+        left: 0;
+    }
+
+    .design-title {
+        margin-top: 12%;
+    }
+
+    .left-container {
         margin-top: 5% !important;
-  }
+    }
 }
 
 
 @media (min-width: 1100px) {
-    .design-title{
-        .title-size{
+    .design-title {
+        .title-size {
             font-size: 80px;
         }
-        img{
+
+        img {
             width: 130px;
         }
-        p{
-            &.xs-text{
+
+        p {
+            &.xs-text {
                 font-size: 22px;
                 margin-top: 20px;
             }
         }
     }
-    .design-text{
+
+    .design-text {
         font-size: 22px;
     }
+
     .right-container {
-        p{
+        p {
             font-size: 22px !important;
             font-family: avenir;
         }
-        .design-title{
+
+        .design-title {
             font-size: 50px !important;
         }
     }
-    .responsive-margin-left, .responsive-margin-right{
-        .design-title{
+
+    .responsive-margin-left, .responsive-margin-right {
+        .design-title {
             font-size: 50px;
         }
-        p{
-            img{
+
+        p {
+            img {
                 width: 90px;
             }
         }
-        div{
-            img{
+
+        div {
+            img {
                 width: 120px !important;
             }
-            span{
+
+            span {
                 font-size: 33px;
             }
         }
-        p{
+
+        p {
             font-family: avenir;
             margin-top: 5px;
             font-size: 22px;
@@ -93,98 +105,97 @@ and open the template in the editor.
 }
 
 
-@media (min-width: 1000px){
-    .right-container{
+@media (min-width: 1000px) {
+    .right-container {
         margin-top: 7% !important;
     }
 }
 
-@media (min-width: 904px){
-    .responsive-margin-left{
+@media (min-width: 904px) {
+    .responsive-margin-left {
         margin: 25px;
     }
-    .responsive-margin-right{
+
+    .responsive-margin-right {
         margin: 25px;
     }
-    #panel{
+
+    #panel {
         font-size: 22px;
     }
-    .left-container{
+
+    .left-container {
         margin-top: 7% !important;
     }
 }
 
-@media (max-width: 840px){
-  .responsive-margin-right{
-    .avenir{
-      font-size: 16px;
+@media (max-width: 840px) {
+    .responsive-margin-right {
+        .avenir {
+            font-size: 16px;
+        }
     }
-  }
 }
 
-@media (min-width: 860px){
-  .responsive-margin-left{
-    margin-left: 61% !important;
-  }
-  .responsive-margin-right{
-    margin-right: 63% !important;
-    margin: 20px;
-  }
+@media (min-width: 860px) {
+    .responsive-margin-left {
+        margin-left: 61% !important;
+    }
+
+    .responsive-margin-right {
+        margin-right: 63% !important;
+        margin: 20px;
+    }
 }
-@media (max-width: 702px){
-  ul.icons-section li a img{
-    margin-top: 10px!important;
-  }
-  
-  ul.icons-section li a .white-icon{
-    margin-top: 20px!important;
-  }
+
+@media (max-width: 702px) {
+    ul.icons-section li a img {
+        margin-top: 10px !important;
+    }
+
+    ul.icons-section li a .white-icon {
+        margin-top: 20px !important;
+    }
 }
 
 @media (min-width: 681px) {
-  .xs-show{
-    display: none;
-  }
-  .xs-hide{
-    display: block !important;
-    font-size: 17px;
-  }
+    .xs-show {
+        display: none;
+    }
+
+    .xs-hide {
+        display: block !important;
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 680px) {
-  .xs-text{
-    position: relative;
-    top: 0;
-    margin: 0;
-    padding: 30px;
-    color: white;
-    background: rgba(49, 42, 42, 0.51);
-  }
-  .xs-background-light-blue{
-    background: rgba(0, 180, 208, 0.74);
-  }
-  .xs-background-yellow{
-    background: rgba(164, 108, 0, 0.82);
-  }
-  .xs-background-red{
-    background: rgba(97, 14, 28, 0.85);
-  }
-  .xs-background-green{
-    background: rgb(57, 154, 112);
-  }
-  .xs-background-purple{
-    background: rgba(146, 22, 218, 0.75);
-  }
-  .xs-background-black{
-    background: #1b1919;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    margin-right: 0 !important;
-  }
-  .xs-show{
-    display: block !important;
-  }
-  .xs-hide{
-    display: none;
-  }
+    .xs-text {
+        position: relative;
+        top: 0;
+        margin: 0;
+        padding: 30px;
+        color: white;
+        background: rgba(49, 42, 42, 0.51);
+    }
+
+    .xs-background-black {
+        background: #1b1919;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .xs-show {
+        display: block !important;
+    }
+
+    .xs-hide {
+        display: none;
+    }
+
+    p {
+        margin: 0;
+        color: #FFFFFF;
+    }
 }
