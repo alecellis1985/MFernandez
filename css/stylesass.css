@@ -420,3 +420,6 @@ header {
 
 .socialNeticons a {
   padding-right: 0 !important; }
+
+#menu_cel .fa-angle-down {
+  margin-left: 5px; }
