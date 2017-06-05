@@ -90,9 +90,13 @@ and open the template in the editor.
     display: none; }
   .xs-hide {
     display: block !important;
-    font-size: 17px; } }
+    font-size: 17px; }
+  .hide-up-xs {
+    display: none; } }
 
 @media (max-width: 680px) {
+  .hideAll-xs {
+    display: none; }
   .xs-text {
     position: relative;
     top: 0;
@@ -112,3 +116,7 @@ and open the template in the editor.
   p {
     margin: 0;
     color: #FFFFFF; } }
+
+@media (max-width: 400px) {
+  .colrsTtl {
+    margin-left: 55% !important; } }

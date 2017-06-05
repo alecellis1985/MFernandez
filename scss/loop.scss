@@ -191,9 +191,36 @@ p:not(.title-size) {
 
     p:not(.title-size) {
         font-size: 16px;
+        line-height: 20px;
     }
 
     .left-container p {
         margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 780px) {
+    p:not(.title-size) {
+        font-size: 15px;
+    }
+
+    .design-title .title-size, h1 {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 680px) {
+    .xs-no-mr-top {
+        margin-top: 0 !important;
+    }
+
+    .design-title .title-size, h1 {
+        font-size: 26px;
+        line-height: 24px;
+    }
+
+    p:not(.title-size) {
+        font-size: 15px;
     }
 }
