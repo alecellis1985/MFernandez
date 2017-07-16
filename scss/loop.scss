@@ -149,6 +149,14 @@ p:not(.title-size) {
     padding: 2px 5px;
 }
 
+.xxl {
+    font-size: 100px;
+}
+
+.banner {
+    margin-top: 23%;
+}
+
 @media (max-width: 1440px) {
     .panelInst {
         line-height: 50px;
@@ -175,11 +183,16 @@ p:not(.title-size) {
     }
 
     p:not(.title-size) {
+        line-height: 18px;
         font-size: 16px;
     }
 }
 
 @media (max-width: 1080px) {
+    .banner {
+        margin-top: 15%;
+    }
+
     .panelInst {
         line-height: 30px;
     }
@@ -200,8 +213,13 @@ p:not(.title-size) {
 }
 
 @media (max-width: 780px) {
+    .banner {
+        margin-top: 8%;
+    }
+
     p:not(.title-size) {
         font-size: 15px;
+        line-height: 18px;
     }
 
     .design-title .title-size, h1 {

@@ -7,6 +7,11 @@ and open the template in the editor.
     Created on : May 7, 2017, 10:02:15 PM
     Author     : Alexander
 */
+@media (min-width: 1560px){
+    .hide-lg{
+        display:none;
+    }
+}
 
 @media (max-width: 770px) {
     .xs-margin-top {
@@ -81,6 +86,10 @@ and open the template in the editor.
         }
 
         p {
+            font-family: avenir;
+            margin-top: 5px;
+            font-size: 22px;
+
             img {
                 width: 90px;
             }
@@ -92,14 +101,8 @@ and open the template in the editor.
             }
 
             span {
-                font-size: 33px;
+                font-size: 32px;
             }
-        }
-
-        p {
-            font-family: avenir;
-            margin-top: 5px;
-            font-size: 22px;
         }
     }
 }
@@ -109,8 +112,17 @@ and open the template in the editor.
     .right-container {
         margin-top: 7% !important;
     }
-}
 
+    article .content-wrapper .entry-meta {
+        letter-spacing: .15em;
+    }
+}
+@media (max-width: 999px) {
+    article .content-wrapper .entry-meta {
+        letter-spacing: .06em;
+        line-height: 1.8;
+    }
+}
 @media (min-width: 904px) {
     .responsive-margin-left {
         margin: 25px;
@@ -125,11 +137,15 @@ and open the template in the editor.
     }
 
     .left-container {
-        margin-top: 7% !important;
+        margin-top: 2% !important;
     }
 }
 
 @media (max-width: 840px) {
+    article .content-wrapper .entry-meta {
+        letter-spacing: .04em;
+    }
+
     .responsive-margin-right {
         .avenir {
             font-size: 16px;
@@ -138,12 +154,14 @@ and open the template in the editor.
 }
 
 @media (min-width: 860px) {
+
+
     .responsive-margin-left {
         margin-left: 61% !important;
     }
 
     .responsive-margin-right {
-        margin-right: 63% !important;
+        margin-right: 60% !important;
         margin: 20px;
     }
 }
@@ -159,6 +177,8 @@ and open the template in the editor.
 }
 
 @media (min-width: 681px) {
+
+
     .xs-show {
         display: none;
     }
@@ -174,6 +194,10 @@ and open the template in the editor.
 }
 
 @media (max-width: 680px) {
+    article .content-wrapper .entry-meta {
+        letter-spacing: .02em;
+    }
+
     .hideAll-xs {
         display: none;
     }

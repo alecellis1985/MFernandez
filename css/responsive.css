@@ -7,6 +7,10 @@ and open the template in the editor.
     Created on : May 7, 2017, 10:02:15 PM
     Author     : Alexander
 */
+@media (min-width: 1560px) {
+  .hide-lg {
+    display: none; } }
+
 @media (min-width: 840px) {
   .xs-text {
     font-size: 20px !important; } }
@@ -43,20 +47,27 @@ and open the template in the editor.
     font-size: 50px !important; }
   .responsive-margin-left .design-title, .responsive-margin-right .design-title {
     font-size: 50px; }
-  .responsive-margin-left p img, .responsive-margin-right p img {
-    width: 90px; }
-  .responsive-margin-left div img, .responsive-margin-right div img {
-    width: 120px !important; }
-  .responsive-margin-left div span, .responsive-margin-right div span {
-    font-size: 33px; }
   .responsive-margin-left p, .responsive-margin-right p {
     font-family: avenir;
     margin-top: 5px;
-    font-size: 22px; } }
+    font-size: 22px; }
+    .responsive-margin-left p img, .responsive-margin-right p img {
+      width: 90px; }
+  .responsive-margin-left div img, .responsive-margin-right div img {
+    width: 120px !important; }
+  .responsive-margin-left div span, .responsive-margin-right div span {
+    font-size: 32px; } }
 
 @media (min-width: 1000px) {
   .right-container {
-    margin-top: 7% !important; } }
+    margin-top: 7% !important; }
+  article .content-wrapper .entry-meta {
+    letter-spacing: .15em; } }
+
+@media (max-width: 999px) {
+  article .content-wrapper .entry-meta {
+    letter-spacing: .06em;
+    line-height: 1.8; } }
 
 @media (min-width: 904px) {
   .responsive-margin-left {
@@ -66,9 +77,11 @@ and open the template in the editor.
   #panel {
     font-size: 22px; }
   .left-container {
-    margin-top: 7% !important; } }
+    margin-top: 2% !important; } }
 
 @media (max-width: 840px) {
+  article .content-wrapper .entry-meta {
+    letter-spacing: .04em; }
   .responsive-margin-right .avenir {
     font-size: 16px; } }
 
@@ -76,7 +89,7 @@ and open the template in the editor.
   .responsive-margin-left {
     margin-left: 61% !important; }
   .responsive-margin-right {
-    margin-right: 63% !important;
+    margin-right: 60% !important;
     margin: 20px; } }
 
 @media (max-width: 702px) {
@@ -95,6 +108,8 @@ and open the template in the editor.
     display: none; } }
 
 @media (max-width: 680px) {
+  article .content-wrapper .entry-meta {
+    letter-spacing: .02em; }
   .hideAll-xs {
     display: none; }
   .xs-text {
