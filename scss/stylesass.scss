@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : Alexander
 */
 
+.menuItems > li:not(:last-child) {
+  opacity: 0; 
+}
+
 .comparativo {
     h1 {
         color: #FFFFFF;

@@ -233,6 +233,10 @@ p:not(.title-size) {
         margin-top: 0 !important;
     }
 
+    .design-title .title-size.xxl {
+        font-size: 50px; 
+    }
+
     .design-title .title-size, h1 {
         font-size: 26px;
         line-height: 24px;
@@ -240,5 +244,11 @@ p:not(.title-size) {
 
     p:not(.title-size) {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 400px){
+    .design-title .title-size.xxl {
+        font-size: 40px; 
     }
 }
