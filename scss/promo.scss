@@ -1,0 +1,149 @@
+﻿#contacto {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #a20004;
+    margin: 60px;
+    padding: 40px;
+    opacity: .7;
+    border-radius: 70px;
+
+    .outerrSpecial {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 60px;
+        height: 107px;
+        width: 100%;
+        border-radius: 70px 70px 0 0;
+        background: #a02e2e;
+        opacity: 0.7;
+    }
+
+    h4 {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    textarea {
+        background: white !important;
+        color: black !important;
+        border-radius: 0 !important;
+    }
+
+    input[type="text"] {
+        border: none !important;
+        border-bottom: 1px solid white !important;
+        box-shadow: none;
+        color: white !important;
+        &:focus,&:hover {
+            border-bottom: 2px solid white !important;
+        }
+    }
+
+    .contact-submit {
+        position: absolute;
+        bottom: -29px;
+        width: 100%;
+        margin: 0 3px 0;
+        background: #949494;
+    }
+
+    input[type=submit] {
+        width: 120px;
+        height: 10px;
+        float: right;
+        border-radius: 30px !important;
+        border: none !important;
+        background: red !important;
+        color: white !important;
+        line-height: 1px !important;
+        padding: 15px !important;
+        margin: 7px;
+
+        &:hover {
+            background: #c10000 !important;
+        }
+    }
+
+    :focus::-webkit-input-placeholder {
+        color: #FFFFFF;
+    }
+
+    :focus::-moz-placeholder {
+        color: #FFFFFF;
+    }
+
+    :focus:-moz-placeholder {
+        color: #FFFFFF;
+    }
+
+    :focus:-ms-input-placeholder {
+        color: #FFFFFF;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #FFFFFF;
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    :-moz-placeholder {
+        color: #FFFFFF;
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    ::-moz-placeholder {
+        color: #FFFFFF;
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    :-ms-input-placeholder {
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    ::-ms-input-placeholder {
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    .txtarea {
+        margin-bottom: 47px;
+        position: relative;
+
+        ::-webkit-input-placeholder {
+            color: #000000 !important;
+            opacity: 1;
+            font-weight: bold;
+        }
+
+        :-moz-placeholder {
+            color: #000000 !important;
+            opacity: 1;
+            font-weight: bold;
+        }
+
+        ::-moz-placeholder {
+            color: #000000 !important;
+            opacity: 1;
+            font-weight: bold;
+        }
+
+        :-ms-input-placeholder {
+            color: #000000 !important;
+            opacity: 1;
+            font-weight: bold;
+        }
+
+        ::-ms-input-placeholder {
+            color: #000000 !important;
+            opacity: 1;
+            font-weight: bold;
+        }
+    }
+}

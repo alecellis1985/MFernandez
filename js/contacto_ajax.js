@@ -40,7 +40,10 @@ $(function () {
   }
 
   function estanTodosLosDatos() {
-    return isDataCorrect($('#userName')) && isDataCorrect($('#userEmail')) && isDataCorrect($('#userMessage')) && isDataCorrect($('#tel'));
+      return isDataCorrect($('#userName'))
+          && isDataCorrect($('#userEmail'))
+          && isDataCorrect($('#userMessage'))
+          && isDataCorrect($('#tel'));
   }
 
   function isDataCorrect(input) {
