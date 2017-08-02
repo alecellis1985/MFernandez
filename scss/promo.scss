@@ -1,4 +1,8 @@
-﻿#contacto {
+﻿body {
+    background: #000000 !important;
+}
+
+#contacto {
     top: 0;
     right: 0;
     position: absolute;
@@ -38,7 +42,8 @@
         border-bottom: 1px solid white !important;
         box-shadow: none;
         color: white !important;
-        &:focus,&:hover {
+
+        &:focus, &:hover {
             border-bottom: 2px solid white !important;
         }
     }
@@ -145,5 +150,52 @@
             opacity: 1;
             font-weight: bold;
         }
+    }
+}
+
+@media (max-width: 1300px) {
+    #contacto {
+        margin-top: 5px;
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #contacto {
+        margin-top: 5px;
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 1100px) {
+    #contacto {
+        margin-top: 5px;
+        padding: 20px 40px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+
+        input[type=text] {
+            height: 20px;
+        }
+
+        .outerrSpecial {
+            height: 71px;
+        }
+
+        .outerrSpecial + div {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #contacto {
+        position: static;
+        text-align: center;
+    }
+
+    .outerrSpecial {
+        display: none;
     }
 }
