@@ -1,0 +1,163 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .enim-k1 nav.navbar-default ul.navbar-right li a {
+        font-size: 19px;
+    }
+    .enim-k1 section.scooter div.smart-scooter h2{
+        font-size: 41px;
+    }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn{
+        font-size: 16px;
+    }
+    .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box a h3{
+        font-size: 30px;
+    }
+    .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box p{
+        font-size: 20px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .enim-k1 nav.navbar-default{
+        height: 160px;
+    }
+    .enim-k1 nav.navbar-default ul.navbar-right{
+        margin-top: 0px !important;
+    }
+    .enim-k1 nav.navbar-default ul.navbar-right li{
+        margin-right:20px;
+    }
+    .enim-k1 nav.navbar-default ul.navbar-right li a{
+        font-size: 14px;
+    }
+    .navbar-brand>img{
+        width: 50%;
+    }
+    .enim-k1 section.blogs>div.container{
+        width: 100% !important;
+    }
+    .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box{
+        position: static;
+        width: 100%;
+    }
+    .enim-k1 section.blogs div.blog-item div.blog-details{
+        height: auto;
+    }
+    .enim-k1 section.blogs div.features div.scooter-img img{
+        margin: 0 auto;
+    }
+    .enim-k1 section.services div.service{
+        margin-bottom: 30px;
+    }
+    .enim-k1 section.slider-payment div.payment a{
+        font-size: 17px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .navbar-default .navbar-toggle{
+        color: #f26367;
+        font-size: 30px;
+        padding: 3px 10px;
+        background: none;
+        border: none;
+    }
+    .navbar-default .navbar-toggle.collapsed{
+        font-size: 30px;
+        padding: 3px 10px;
+        background: none;
+        border: none;
+        color: #000;
+    }
+    .navbar-default .navbar-toggle:hover{
+        background: none;
+        color: #f26367;
+    }
+    .enim-k1 nav.navbar-default ul.navbar-right{
+        background: #f8f8f8;
+        border: none;
+        padding: 10px !important;
+        margin-top: 20px !important;
+    }
+    .enim-k1 nav.navbar-default div.navbar-collapse{
+        border:0px;
+    }
+    .enim-k1 nav.navbar-default div.navbar-collapse {
+        position: absolute;
+        width: 100%;
+        z-index: 1000000000000000000;
+    }
+    .enim-k1 section.chopper div.k1 h1{
+        font-size: 65px !important;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .enim-k1 nav.navbar-default a.navbar-brand{
+        width: 70%;
+        margin-left: 15px;
+    }
+    .enim-k1 section.scooter div.k1{
+        width: 100%;
+    }
+    .enim-k1 section.scooter div.k1 h1{
+        font-size: 100px;
+    }
+    .enim-k1 section.scooter div.smart-scooter{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .enim-k1 section.slider-payment div.payment img, .enim-k1 section.slider-payment div.payment a {
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin: 20px auto;
+    }
+    .enim-k1 footer div.contact-info div.contact-item i {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .enim-k1 footer div.contact-info div.contact-item span{
+        width: 100%;
+        text-align: center;
+    }
+    .enim-k1 section.scooter div.k1 h1{
+        font-size: 50px !important;
+    }
+    .enim-k1 section.scooter div.smart-scooter h2 span{
+        font-size: 30px;
+    }
+    section.s1 div.s h2,
+    section.s1 div.s1-content h2{
+        font-size: 50px;
+    }
+    section.s1 div.s1-content div.scooter-btn a.btn-default{
+        margin-top: 30px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item b{
+        font-size: 18px;
+    }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn-default{
+        margin-top: 20px;
+    }
+    .enim-k1 section.scooter div.k1 h1{
+        font-size: 40px !important;
+    }
+}
