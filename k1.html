@@ -37,12 +37,12 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">AUTOS</a></li>
-                    <li class="active"><a href="#">K1</a></li>
-                    <li><a href="#">CHOPPER</a></li>
-                    <li><a href="#">S1</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="/">INICIO</a></li>
+                    <li><a href="emin.html">AUTOS</a></li>
+                    <li class="active"><a href="k1.html">K1</a></li>
+                    <li><a href="chopper.html">CHOPPER</a></li>
+                    <li><a href="s1.html">S1</a></li>
+                    <li><a href="#form-link">CONTACTO</a></li>
                 </ul>
             </div>
         </div>
@@ -59,13 +59,26 @@
                         <h2><span>SMART <br/> SCOOTER</span><br/> REDEFINÍ TU<br/> MOVILIDAD<br/> URBANA</h2>
                         <p>Scooter eléctrico, plegable en formato liviano y con diseño holandés.</p>
                         <div class="scooter-btn">
-                            <a href="" class="btn btn-danger">Comprar ahora</a>
-                            <a href="" class="btn btn-default">Más información</a>
+                            <a href="#form-link" class="btn btn-danger">Comprar ahora</a>
+                            <a href="#form-link" class="btn btn-default">Más información</a>
                         </div>
-                        <a href="" class="btn btn-default btn-video">
+                        <a href="#" class="btn btn-default btn-video" data-toggle="modal" data-target="#videomodal">
                             VER VIDEO
                             <i class="fa fa-play"></i>
                         </a>
+                        <div class="modal fade" id="videomodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">K1 Video</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/DOVa1EeF5Hs" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -234,7 +247,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-4">
-                    <div class="contact-form">
+                    <div class="contact-form" id="form-link">
                         <form>
                            <h3>CONTACTO</h3>
                             <input type="text" class="form-control" placeholder="Nombre">
@@ -285,7 +298,9 @@
             autoWidth: true,
             items: 4,
             autoplay: true,
-            dots: false
+            dots: false,
+            nav: true,
+            navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
           })
         })
     </script>

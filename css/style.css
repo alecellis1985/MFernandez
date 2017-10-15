@@ -369,6 +369,7 @@ ul.topnav li a:hover{
     padding: 200px 0px 90px 0px;
     background: url('../images/scooter-section-background.jpg');
     background-size: cover;
+    background-position: 50% 50%;
 }
 .enim-k1 section.scooter div.k1{
     widows: 100px;
@@ -657,6 +658,7 @@ section.s1{
     padding: 227px 0px;
     background: url('../images/s1-background.jpg');
     background-size: cover;
+    background-position: 50% 50%;
 }
 section.s1 div.s h1{
     font-size: 189px;
@@ -721,4 +723,23 @@ section.s1 div.s1-content a.btn-default.btn-video{
     color: #fff;
     font-size: 24px;
     border: none;
+}
+.owl-carousel{
+    position: relative;
+}
+.owl-carousel .owl-prev{
+    position: absolute;
+    top: 50%;
+    background: none !important;
+    color: #f26367 !important;
+    font-size: 50px !important;
+    left: 40px;
+}
+.owl-carousel .owl-next{
+    position: absolute;
+    top: 50%;
+    background: none !important;
+    color: #f26367 !important;
+    font-size: 50px !important;
+    right: 40px;
 }

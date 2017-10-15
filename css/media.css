@@ -69,6 +69,9 @@
         background: none;
         border: none;
     }
+    .enim-k1 nav.navbar-default a.navbar-brand{
+        margin-left: 20px;
+    }
     .navbar-default .navbar-toggle.collapsed{
         font-size: 30px;
         padding: 3px 10px;
@@ -97,6 +100,14 @@
     .enim-k1 section.chopper div.k1 h1{
         font-size: 65px !important;
     }
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item span{
+        width: 50px !important;
+        height: 50px !important;
+        line-height: 50px !important;
+    }
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item b{
+        padding: 0px 15px;
+    }
 }
 
 
@@ -108,13 +119,13 @@
         margin-left: 15px;
     }
     .enim-k1 section.scooter div.k1{
-        width: 100%;
+        width: 100px;
     }
     .enim-k1 section.scooter div.k1 h1{
         font-size: 100px;
     }
     .enim-k1 section.scooter div.smart-scooter{
-        width: 100%;
+        width: calc(100% - 110px);
         margin-top: 0px;
     }
     .enim-k1 section.slider-payment div.payment img, .enim-k1 section.slider-payment div.payment a {
@@ -132,7 +143,7 @@
         text-align: center;
     }
     .enim-k1 section.scooter div.k1 h1{
-        font-size: 50px !important;
+        font-size: 80px !important;
     }
     .enim-k1 section.scooter div.smart-scooter h2 span{
         font-size: 30px;
@@ -143,6 +154,25 @@
     }
     section.s1 div.s1-content div.scooter-btn a.btn-default{
         margin-top: 30px;
+    }
+    section.s1 div.s h1{
+        font-size: 100px !important;
+        width: 120px;
+    }
+    section.s1 div.s h2, section.s1 div.s1-content h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .enim-k1 section.scooter div.smart-scooter h2{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .enim-k1 section.scooter div.smart-scooter p{
+        font-size: 25px;
+    }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn{
+        margin-top: 20px;
     }
 }
 
@@ -159,5 +189,12 @@
     }
     .enim-k1 section.scooter div.k1 h1{
         font-size: 40px !important;
+    }
+    .enim-k1 section.scooter div.k1{
+        width: 50px;
+    }
+    .enim-k1 section.scooter div.smart-scooter{
+        width: calc(100% - 60px);
+        margin-top: 0px;
     }
 }
