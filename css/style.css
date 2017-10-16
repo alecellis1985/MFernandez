@@ -369,7 +369,7 @@ ul.topnav li a:hover{
     padding: 200px 0px 90px 0px;
     background: url('../images/scooter-section-background.jpg');
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 80%;
 }
 .enim-k1 section.scooter div.k1{
     widows: 100px;
@@ -655,10 +655,10 @@ ul.topnav li a:hover{
     font-size: 68px;
 }
 section.s1{
-    padding: 227px 0px;
+    padding: 200px 0px;
     background: url('../images/s1-background.jpg');
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 30% 80%;
 }
 section.s1 div.s h1{
     font-size: 189px;

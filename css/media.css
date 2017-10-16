@@ -108,6 +108,16 @@
     .enim-k1 section.blogs div.features div.feature-items div.feature-item b{
         padding: 0px 15px;
     }
+    .enim-k1 section.scooter{
+        background-position: 80% 50%;
+        padding: 100px 0px;
+    }
+    .enim-k1 section.scooter div.smart-scooter p{
+        margin: 0px;
+    }
+    .enim-k1 section.scooter div.smart-scooter h2{
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -120,9 +130,6 @@
     }
     .enim-k1 section.scooter div.k1{
         width: 100px;
-    }
-    .enim-k1 section.scooter div.k1 h1{
-        font-size: 100px;
     }
     .enim-k1 section.scooter div.smart-scooter{
         width: calc(100% - 110px);
@@ -145,6 +152,12 @@
     .enim-k1 section.scooter div.k1 h1{
         font-size: 80px !important;
     }
+    .enim-k1 section.chopper div.k1{
+        width: 100% !important;
+    }
+    .enim-k1 section.chopper div.k1 h1{
+        font-size: 60px !important;
+    }
     .enim-k1 section.scooter div.smart-scooter h2 span{
         font-size: 30px;
     }
@@ -161,7 +174,9 @@
     }
     section.s1 div.s h2, section.s1 div.s1-content h2{
         margin-top: 10px;
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 30px;
     }
     .enim-k1 section.scooter div.smart-scooter h2{
         font-size: 30px;
