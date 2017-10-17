@@ -28,7 +28,7 @@ gulp.task('watch', function () {
 
 gulp.task('build', function (callback) {
   runSequence('clean:dist',
-  ['sass', 'useref', 'images', 'fonts', 'api', 'cacheBuster'],
+      ['sass', 'useref', 'images', 'fonts', 'api'], 'cacheBuster',
   callback
   );
 });
@@ -97,7 +97,7 @@ gulp.task('browserSync', function () {
 });
 //https://blog.dmbcllc.com/using-gulp-to-bundle-minify-and-cache-bust/
 gulp.task('cacheBuster', [], function () {
-  return gulp.src('dist/index.html')
+  return gulp.src('dist/*.html')
   .pipe(htmlmin({collapseWhitespace: true,
     removeComments: true}))
   .pipe(cacheBuster())
