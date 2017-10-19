@@ -318,12 +318,12 @@ ul.topnav li a:hover {
 }
 
 .enim-k1 nav.navbar-default {
-    border: 0px;
-    border-radius: 0px;
-    height: 236px;
-    padding-top: 70px;
+    border: 0;
+    border-radius: 0;
+    height: 136px;
+    padding-top: 10px;
     color: #f8f8f8;
-    margin: 0px;
+    margin: 0;
 }
 
     .enim-k1 nav.navbar-default a.navbar-brand {
@@ -726,7 +726,7 @@ ul.topnav li a:hover {
     }
 
 section.s1 {
-    padding: 200px 0px;
+    padding: 15% 0px;
     background: url('../images/s1-background.jpg');
     background-size: cover;
     background-position: 30% 80%;
