@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(document).ready(function() {
     $('.slider').owlCarousel({
         margin: 10,
         loop: true,
@@ -9,4 +9,4 @@
         nav: true,
         navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
     });
-})
+});

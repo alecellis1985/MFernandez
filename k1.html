@@ -91,7 +91,7 @@
                         </div>
                         <div class="blog-details">
                             <div class="blog-details-box">
-                                <a href=""><h3>Portaable</h3></a>
+                                <a href=""><h3>Portable</h3></a>
                                 <p>Se pliega sobre un eje, facilitando su guardar y traslado.</p>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                             </div>
                             <div class="feature-item">
                                 <span><img src="images/features-icons/holand.png" alt="icon"></span>
-                                <b>DISENO<br /> HOLANDES</b>
+                                <b>DISEÑO<br /> HOLANDES</b>
                             </div>
                             <div class="feature-item">
                                 <span><img src="images/features-icons/kg.png" alt="icon"></span>
@@ -251,7 +251,7 @@
                             <input type="email" class="form-control" placeholder="Email">
                             <input type="text" class="form-control" placeholder="Telefono">
                             <textarea class="form-control" placeholder="Escribe El Mensaje Aqui..."></textarea>
-                            <input type="submit" class="btn btn-default" value="ENVIAR MENSEJE">
+                            <input type="submit" class="btn btn-default" value="ENVIAR MENSAJE">
                         </form>
                     </div>
                 </div>
@@ -283,22 +283,22 @@
             </div>
         </div>
     </footer>
-<!-- Javascript -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <!-- Javascript -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-76284036-1', 'auto');
-    ga('send', 'pageview');</script>
+        ga('create', 'UA-76284036-1', 'auto');
+        ga('send', 'pageview');</script>
     <!--build:js js/mainJsK1.min.js-->
     <script src="vendor/jquery.js" type="text/javascript"></script>
     <script src="vendor/jquery.validate.js" type="text/javascript"></script>
@@ -306,23 +306,37 @@
     <script src="js/contacto_ajax.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/custom/owlImpl.js"></script>
+    <!--<script src="js/custom/owlImpl.js"></script>-->
     <!--endbuild-->
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        }; if (!f._fbq) f._fbq = n;
-        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '114314712542797'); // Insert your pixel ID here.
-    fbq('track', 'PageView');</script>
-<noscript>
-    <img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=114314712542797&ev=PageView&noscript=1">
-</noscript>
+    <script>
+        $(document).ready(function () {
+            $('.slider').owlCarousel({
+                margin: 10,
+                loop: true,
+                autoWidth: true,
+                items: 4,
+                autoplay: true,
+                dots: false,
+                nav: true,
+                navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+            });
+        })
+    </script>
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '114314712542797'); // Insert your pixel ID here.
+        fbq('track', 'PageView');</script>
+    <noscript>
+        <img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=114314712542797&ev=PageView&noscript=1">
+    </noscript>
 </body>
 
 </html>

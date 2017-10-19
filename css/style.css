@@ -303,11 +303,11 @@ ul.topnav li a:hover{
 /**** K1 Page ****/
 @font-face{
     font-family:gotham;
-    src:url('../Fonts/GOTHAM-BLACK.OTF');
+    src:url('../fonts/GOTHAM-BLACK.OTF');
 }
 @font-face{
     font-family:mukta;
-    src:url('../Fonts/MUKTAMALAR-REGULAR.TTF');
+    src:url('../fonts/MUKTAMALAR-REGULAR.TTF');
 }
 .enim-k1 nav.navbar-default{
     border: 0px;
