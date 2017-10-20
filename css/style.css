@@ -387,7 +387,7 @@ ul.topnav li a:hover {
             }
 
 .enim-k1 section.scooter {
-    padding: 63px 0px 10px 0px;
+    padding: 63px 0px 11px 0px;
     background: url('../images/K1 header.png');
     background-size: cover;
     background-position: center;
@@ -814,6 +814,93 @@ section.s1 div.scooter-btn a{
             color: #fff;
             border: none;
         }
+
+
+.enim-k1 section.chopper {
+    padding: 100px 0px 140px 0px;
+    background-image: url('../images/chopper-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+    .enim-k1 section.chopper div.k1 {
+        widows: 100px;
+        float: left;
+    }
+
+        .enim-k1 section.chopper div.k1 h1 {
+            font-size: 80px;
+            color: #fff;
+            font-family: gotham;
+            margin-bottom: 0;
+        }
+
+    .enim-k1 section.chopper div.smart-scooter {
+        width: calc(100% - 180px);
+        float: left;
+        font-family: gotham;
+    }
+
+        .enim-k1 section.chopper div.smart-scooter h2 {
+            font-size: 46px;
+            color: #fff;
+            line-height: 46px;
+            margin-top: 0;
+        }
+
+            .enim-k1 section.chopper div.smart-scooter h2 span {
+                color: #f26367;
+            }
+
+        .enim-k1 section.chopper div.smart-scooter p {
+            color: #fff;
+            font-size: 21px;
+            line-height: 32px;
+            font-family: mukta;
+            margin: 18px 0px 11px 0px;
+        }
+        .enim-k1 section.chopper div.smart-scooter div.scooter-btn {
+            margin-bottom: 70px;
+            margin-left: 13px;
+        }
+
+            .enim-k1 section.chopper div.smart-scooter div.scooter-btn a.btn {
+                font-family: mukta;
+                font-size: 20px;
+            }
+
+            .enim-k1 section.chopper div.smart-scooter div.scooter-btn a.btn-danger {
+                margin-right: 5px;
+                border: none;
+                background: #f26367;
+            }
+
+            .enim-k1 section.chopper div.smart-scooter div.scooter-btn a.btn-default {
+                background: none;
+                color: #fff;
+                border-color: #f26367;
+            }
+
+                .enim-k1 section.chopper div.smart-scooter div.scooter-btn a.btn-default:hover {
+                    background: #f26367;
+                    transition: all ease-in-out 0.3s;
+                    -webkit-transition: all ease-in-out 0.3s;
+                    -moz-transition: all ease-in-out 0.3s;
+                    -o-transition: all ease-in-out 0.3s;
+                    -ms-transition: all ease-in-out 0.3s;
+                }
+
+                .enim-k1 section.chopper div.smart-scooter div.scooter-btn a.btn-default.btn-video {
+                    background: #231f20;
+                    border: none;
+                    color: #fff;
+                    padding: 6px 12px;
+                    font-size: 20px;
+                    border-radius: 0px;
+                }
+
+
+
 
 .owl-carousel {
     position: relative;
