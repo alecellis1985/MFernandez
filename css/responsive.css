@@ -8,14 +8,12 @@ and open the template in the editor.
     Author     : Alexander
 */
 @media (min-width: 769px) {
-    .escItem:hover > div {
-        position: absolute;
-        padding: 15px;
-        background: #00b194;
-        border-radius: 3px;
-        cursor: pointer;
-        box-shadow: 0 0 22px #6f6f6f;
-        top: 0;
-        left: 0;
-    }
-}
+  .escItem:hover > div {
+    position: absolute;
+    padding: 15px;
+    background: #00b194;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 22px #6f6f6f;
+    top: 0;
+    left: 0; } }
