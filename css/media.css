@@ -5,62 +5,137 @@
         font-size: 19px;
     }
 
-    .enim-k1 section.scooter div.smart-scooter h2 {
-        font-size: 41px;
+    .enim-k1 section.scooter {
+        padding: 0px 0px 0px 0px;
     }
 
-    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
-        font-size: 16px;
+        .enim-k1 section.scooter div.smart-scooter h2 {
+            font-size: 41px;
+        }
+
+        .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
+            font-size: 16px;
+        }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
+        margin-bottom: 70px;
+        margin-left: 174px;
     }
 
     .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box a h3 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box p {
+        font-size: 16px;
+    }
+
+    .enim-k1 section.services div.service h3 {
+        font-size: 24px;
+    }
+
+    .enim-k1 section.services div.service p {
+        font-size: 16px;
+    }
+
+    section.s1 div.s h1 {
+        font-size: 115px;
+        width: 130px;
+    }
+
+    section.s1 div.s h2 {
+        font-size: 51px;
+        line-height: 46px;
+    }
+    section.s1 div.s1-content h2 {
+        font-size: 43px;
+    }
+
+    section.s1 div.s1-content p {
         font-size: 20px;
     }
+
+    section.s1 div.scooter-btn {
+        margin-left: 17px;
+    }
+
+    section.s1 div.scooter-btn a {
+        font-size: 16px;
+    }
+
+
 }
 
 
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
-    .enim-k1 nav.navbar-default {
-        height: 160px;
+    .enim-k1 nav.navbar-default ul.navbar-right {
+        margin-top: 0px !important;
     }
 
-        .enim-k1 nav.navbar-default ul.navbar-right {
-            margin-top: 0px !important;
+        .enim-k1 nav.navbar-default ul.navbar-right li {
+            margin-right: 20px;
         }
 
-            .enim-k1 nav.navbar-default ul.navbar-right li {
-                margin-right: 20px;
+            .enim-k1 nav.navbar-default ul.navbar-right li a {
+                font-size: 14px;
             }
-
-                .enim-k1 nav.navbar-default ul.navbar-right li a {
-                    font-size: 14px;
-                }
 
     .navbar-brand > img {
         width: 50%;
+    }
+
+    .enim-k1 section.scooter div.k1 h1 {
+        font-size: 100px;
+    }
+
+    .enim-k1 section.scooter div.smart-scooter h2 {
+        margin-top: 10px;
+        font-size: 40px;
+        line-height: 38px;
+    }
+
+    .enim-k1 section.scooter div.smart-scooter p {
+        font-size: 22px;
+    }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
+        margin-bottom: 70px;
+        margin-left: 130px;
     }
 
     .enim-k1 section.blogs > div.container {
         width: 100% !important;
     }
 
-    .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box {
-        position: static;
-        width: 100%;
+    .enim-k1 section.blogs div.blog-item {
+        text-align: center;
     }
 
-    .enim-k1 section.blogs div.blog-item div.blog-details {
-        height: auto;
-    }
+        .enim-k1 section.blogs div.blog-item div.blog-img img {
+            width: 360px;
+        }
+
+        .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box {
+            position: static;
+            width: 100%;
+        }
+
+        .enim-k1 section.blogs div.blog-item div.blog-details {
+            height: auto;
+        }
 
     .enim-k1 section.blogs div.features div.scooter-img img {
         margin: 0 auto;
+        width: 45%;
+    }
+
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item b {
+        font-size: 18px;
+        padding: 17px 15px;
+    }
+
+    .enim-k1 section.services div.service p {
+        padding: 0 50px;
     }
 
     .enim-k1 section.services div.service {
@@ -70,12 +145,47 @@
     .enim-k1 section.slider-payment div.payment a {
         font-size: 17px;
     }
+
+    .enim-k1 footer div.contact-form input[type="submit"] {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    section.s1 div.s h1 {
+        font-size: 102px;
+        width: 112px;
+    }
+    section.s1 div.s h2 {
+        font-size: 45px;
+        line-height: 39px;
+    }
+    section.s1 div.s1-content h2 {
+        font-size: 35px;
+    }
+    section.s1 div.s1-content p {
+        font-size: 17px;
+    }
+
+    section.s1 div.scooter-btn a {
+        font-size: 14px;
+    }
+    section.s1 div.scooter-btn {
+        margin-top: 7px;
+    }
+    .enim-k1 nav.navbar-default {
+        height: 113px;
+    }
 }
 
 
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {
+    .enim-k1 nav.navbar-default a.navbar-brand img {
+        width: 50%;
+    }
+
     .enim-k1 nav.navbar-default {
         height: 100px;
     }
@@ -126,6 +236,11 @@
         font-size: 65px !important;
     }
 
+    .enim-k1 section.blogs div.features div.scooter-img img {
+        padding: 0 90px;
+        width: 100%;
+    }
+
     .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
         width: 50px !important;
         height: 50px !important;
@@ -137,8 +252,7 @@
     }
 
     .enim-k1 section.scooter {
-        background-position: 80% 50%;
-        padding: 100px 0px;
+        background-position-x: 82%;
     }
 
         .enim-k1 section.scooter div.smart-scooter p {
@@ -148,6 +262,93 @@
         .enim-k1 section.scooter div.smart-scooter h2 {
             margin-bottom: 0px;
         }
+
+        .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
+            margin-bottom: 20px;
+            margin-left: 131px;
+            width: 160px;
+        }
+
+            .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
+                margin-bottom: 6px;
+            }
+
+            .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn-danger {
+                padding: 6px 19px;
+            }
+
+    .enim-k1 section.slider-payment div.payment a {
+        display: block;
+        margin-right: 25% !important;
+        margin-left: 25%;
+        margin-bottom: 10px;
+    }
+
+    .enim-k1 section.slider-payment div.payment img {
+        display: block;
+        padding-right: 41%;
+        padding-left: 42%;
+        margin-bottom: 10px;
+    }
+    section.s1 {
+        padding: 17% 0 26% 33%;
+        background-position-x: 40%;
+        background-position-y: 67%;
+    }
+
+    section.s1 div.scooter-btn a {
+        display: block;
+        margin-right: 50% !important;
+        margin-top: 7px;
+    }
+
+    section.s1 div.s h1 {
+        font-size: 69px;
+        width: 77px;
+    }
+
+    section.s1 div.s h2 {
+        font-size: 29px;
+        line-height: 26px;
+        margin-top: 13px;
+    }
+
+    section.s1 div.s1-content h2 {
+        font-size: 30px;
+    }
+
+    section.s1 div.s1-content p {
+        font-size: 14px;
+    }
+
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item {
+        width: 50%;
+        float: left;
+    }
+
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
+        width: 45px !important;
+        height: 45px !important;
+        line-height: 42px !important;
+    }
+
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item b {
+        display: block;
+        width: calc(100% - 50px);
+        float: left;
+        font-size: 13px;
+        padding: 0 5px;
+        min-height: 60px;
+    }
+
+    div.scooter-btn a.btn-default.btn-video {
+        background: #231f20;
+        border-radius: 0px;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+    }
+
 }
 
 
@@ -169,7 +370,7 @@
     }
 
     .enim-k1 section.scooter div.smart-scooter p, section.s1 div.s1-content p {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 22px;
     }
 
@@ -220,7 +421,7 @@
             display: block;
             width: calc(100% - 50px);
             float: left;
-            font-size: 11px;
+            font-size: 9px;
             padding: 0 5px;
             min-height: 60px;
         }
@@ -234,7 +435,7 @@
     }
 
     .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box {
-        padding: 1px 48px 11px;
+        padding: 1px 15px 11px;
     }
 
     .enim-k1 nav.navbar-default {
@@ -270,15 +471,26 @@
     .enim-k1 section.scooter div.smart-scooter {
         width: calc(100% - 110px);
         margin-top: 0px;
+        margin-left: -20px;
     }
 
-    .enim-k1 section.slider-payment div.payment img, .enim-k1 section.slider-payment div.payment a {
+    .enim-k1 section.services div.service p {
+        padding: 4px 0px;
+    }
+
+    .enim-k1 section.blogs div.blog-item div.blog-img img {
+        width: 320px;
+    }
+
+    .enim-k1 section.slider-payment div.payment a {
         display: block;
         margin-right: 0px;
         margin-bottom: 20px;
-        margin: 20px auto;
     }
 
+    .enim-k1 section.slider-payment div.payment img {
+        padding-left: 38%;
+    }
     .enim-k1 footer div.contact-info div.contact-item i {
         width: 100%;
         margin-bottom: 10px;
@@ -289,8 +501,13 @@
         text-align: center;
     }
 
+    .enim-k1 footer div.contact-form input[type="submit"] {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .enim-k1 section.scooter div.k1 h1 {
-        font-size: 80px !important;
+        font-size: 65px !important;
     }
 
     .enim-k1 section.chopper div.k1 {
@@ -302,11 +519,13 @@
         }
 
     .enim-k1 section.scooter div.smart-scooter h2 span {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     section.s1 {
-        padding: 0 0 10px;
+        padding: 10% 0 0% 26%;
+        background-position-x: 40%;
+        background-position-y: 67%;
     }
 
         section.s1 div.s h2,
@@ -321,32 +540,51 @@
 
         section.s1 div.s h2, section.s1 div.s1-content h2 {
             margin-top: 10px;
-            font-size: 30px;
-            line-height: 30px;
+            font-size: 26px;
+            line-height: 22px;
             margin-top: 30px;
         }
 
-        section.s1 div.s h1 {
-            font-size: 70px !important;
-            width: 80px;
-        }
+    section.s1 div.s h1 {
+        font-size: 57px !important;
+        width: 66px;
+    }
 
         section.s1 div.s1-content h2, section.s1 div.s h2 {
             margin-top: 9px;
         }
 
-    .enim-k1 section.scooter div.smart-scooter h2 {
-        font-size: 30px;
-        line-height: 30px;
-        margin-top: 30px;
+    .enim-k1 section.scooter {
+        background-position-x: 69%;
     }
 
-    .enim-k1 section.scooter div.smart-scooter p {
-        font-size: 25px;
-    }
+        .enim-k1 section.scooter div.smart-scooter h2 {
+            font-size: 28px;
+            line-height: 25px;
+            margin-top: 30px;
+        }
 
-    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
-        margin-top: 20px;
+        .enim-k1 section.scooter div.smart-scooter p {
+            font-size: 21px;
+        }
+
+        .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
+            margin-top: 5px;
+        }
+
+        .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
+            margin-bottom: 0px;
+            margin-left: 116px;
+        }
+
+    section.s1 div.scooter-btn a {
+        font-size: 13px;
+    }
+    div.scooter-btn a.btn-default.btn-video {
+        font-size: 13px;
+    }
+    .enim-k1 section.blogs div.features div.scooter-img img {
+         padding: 0; 
     }
 }
 
@@ -354,15 +592,9 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 320px) {
-
-    .enim-k1 section.blogs div.features div.feature-items div.feature-item b {
-        font-size: 18px;
+    .enim-k1 section.scooter {
+        background-position-x: 81%;
     }
-
-    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn-default {
-        margin-top: 20px;
-    }
-
     .enim-k1 section.scooter div.k1 h1 {
         font-size: 40px !important;
     }
@@ -373,6 +605,32 @@
 
     .enim-k1 section.scooter div.smart-scooter {
         width: calc(100% - 60px);
-        margin-top: 0px;
+        margin-top: -5px;
+        margin-left: 0;
+    }
+
+    .enim-k1 section.scooter div.smart-scooter h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .enim-k1 section.scooter div.smart-scooter h2 span {
+        font-size: 20px;
+    }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
+        margin-left: 66px;
+    }
+    .enim-k1 section.scooter div.smart-scooter p {
+        font-size: 16px;
+    }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
+        font-size: 14px;
+    }
+    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn-default.btn-video {
+        font-size: 17px;
+    }
+    .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
+        width: 45px !important;
+        height: 45px !important;
+        line-height: 42px !important;
     }
 }

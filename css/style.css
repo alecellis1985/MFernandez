@@ -327,9 +327,13 @@ ul.topnav li a:hover {
 }
 
     .enim-k1 nav.navbar-default a.navbar-brand {
-        margin: 0px;
+        margin: 10px;
         padding: 0px;
     }
+
+.enim-k1 nav.navbar-default a.navbar-brand img{
+    width: 70%;
+}
 
     .enim-k1 nav.navbar-default ul.navbar-right {
         margin-top: 40px;
@@ -383,10 +387,10 @@ ul.topnav li a:hover {
             }
 
 .enim-k1 section.scooter {
-    padding: 200px 0px 90px 0px;
-    background: url('../images/scooter-section-background.jpg');
+    padding: 63px 0px 10px 0px;
+    background: url('../images/K1 header.png');
     background-size: cover;
-    background-position: 50% 80%;
+    background-position: center;
 }
 
     .enim-k1 section.scooter div.k1 {
@@ -395,7 +399,7 @@ ul.topnav li a:hover {
     }
 
         .enim-k1 section.scooter div.k1 h1 {
-            font-size: 148px;
+            font-size: 139px;
             color: #fff;
             font-family: gotham;
         }
@@ -408,7 +412,7 @@ ul.topnav li a:hover {
     }
 
         .enim-k1 section.scooter div.smart-scooter h2 {
-            font-size: 68px;
+            font-size: 60px;
             color: #fff;
             line-height: 50px;
         }
@@ -419,7 +423,7 @@ ul.topnav li a:hover {
 
         .enim-k1 section.scooter div.smart-scooter p {
             color: #fff;
-            font-size: 32px;
+            font-size: 27px;
             line-height: 32px;
             font-family: mukta;
             margin: 18px 0px 48px 0px;
@@ -427,6 +431,7 @@ ul.topnav li a:hover {
 
         .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
             margin-bottom: 70px;
+            margin-left: 177px;
         }
 
             .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
@@ -455,11 +460,11 @@ ul.topnav li a:hover {
                     -ms-transition: all ease-in-out 0.3s;
                 }
 
-        .enim-k1 section.scooter div.smart-scooter a.btn-default.btn-video {
+        .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn-default.btn-video {
             background: #231f20;
             border: none;
             color: #fff;
-            padding: 10px 15px;
+            padding: 4px 15px;
             font-size: 20px;
             border-radius: 0px;
         }
@@ -472,7 +477,7 @@ ul.topnav li a:hover {
     .enim-k1 section.blogs div.blog-item div.blog-img img {
         width: 100%;
         max-width: 100%;
-        max-height: 100%;
+        height: 190px;
     }
 
     .enim-k1 section.blogs div.blog-item div.blog-details {
@@ -506,14 +511,14 @@ ul.topnav li a:hover {
 
                 .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box a h3 {
                     font-family: gotham;
-                    font-size: 36px;
-                    line-height: 30px;
+                    font-size: 30px;
+                    line-height: 20px;
                 }
 
             .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box p {
                 font-family: mukta;
                 color: #000;
-                font-size: 25px;
+                font-size: 21px;
                 line-height: 31px;
             }
 
@@ -566,6 +571,7 @@ ul.topnav li a:hover {
                 }
 
 .enim-k1 section.services {
+    margin-top: -27px;
     background: #393939;
     text-align: center;
     padding: 44px 0px;
@@ -615,7 +621,7 @@ ul.topnav li a:hover {
 
         .enim-k1 section.slider-payment div.payment a {
             background: #f26367;
-            font-size: 26px;
+            font-size: 16px;
             font-family: mukta;
             color: #fff;
             border: none;
@@ -629,7 +635,7 @@ ul.topnav li a:hover {
     .enim-k1 footer div.contact-form h3 {
         font-family: gotham;
         padding: 0px;
-        margin: 0px 0px 45px 0px;
+        margin: 0px 0px 45px 10px;
         font-weight: normal;
     }
 
@@ -655,6 +661,7 @@ ul.topnav li a:hover {
 
     .enim-k1 footer div.contact-form input[type="submit"] {
         width: 98%;
+        margin-top: 10px;
         background: none;
         color: #f26367;
         border-color: #f26367;
@@ -726,14 +733,16 @@ ul.topnav li a:hover {
     }
 
 section.s1 {
-    padding: 15% 0px;
-    background: url('../images/s1-background.jpg');
+    padding: 15% 0 15% 49%;
+    background: url(../images/s1-background.jpg);
+    background-position-x: 55%;
+    background-position-y: 67%;
     background-size: cover;
-    background-position: 30% 80%;
+    overflow: hidden;
 }
 
     section.s1 div.s h1 {
-        font-size: 189px;
+        font-size: 139px;
         color: #f0ff06;
         width: 200px;
         font-family: gotham;
@@ -742,14 +751,13 @@ section.s1 {
     }
 
     section.s1 div.s h2 {
-        width: calc(100% - 250px;
-        );
+        width: calc(100% - 250px);
         color: #fff;
-        font-size: 86px;
+        font-size: 60px;
         font-family: gotham;
-        line-height: 66px;
+        line-height: 59px;
         float: left;
-        margin-top: 40px;
+        margin-top: 19px;;
     }
 
     section.s1 div.s1-content {
@@ -757,35 +765,36 @@ section.s1 {
     }
 
         section.s1 div.s1-content h2 {
-            font-size: 68px;
+            font-size: 60px;
             color: #f0ff06;
             font-family: gotham;
         }
 
         section.s1 div.s1-content p {
-            font-size: 32px;
+            font-size: 27px;
             color: #fff;
             font-family: mukta;
         }
 
-        section.s1 div.s1-content div.scooter-btn {
+        section.s1  div.scooter-btn {
             margin-top: 20px;
             margin-bottom: 30px;
         }
-
-            section.s1 div.s1-content div.scooter-btn a.btn-danger {
+section.s1 div.scooter-btn a{
+    font-size: 20px;
+    margin-right: 7px !important;
+}
+            section.s1 div.scooter-btn a.btn-danger {
                 color: #fff;
-                font-size: 24px;
                 background: #f26367;
                 border: none;
                 font-family: mukta;
                 margin-right: 38px;
             }
 
-            section.s1 div.s1-content div.scooter-btn a.btn-default {
+            section.s1 div.scooter-btn a.btn-default {
                 color: #fff;
                 background: none;
-                font-size: 24px;
                 font-family: mukta;
                 border-color: #f26367;
                 transition: all ease-in-out 0.3s;
@@ -795,15 +804,14 @@ section.s1 {
                 -ms-transition: all ease-in-out 0.3s;
             }
 
-                section.s1 div.s1-content div.scooter-btn a.btn-default:hover {
+                section.s1 div.scooter-btn a.btn-default:hover {
                     background: #f26367;
                 }
 
-        section.s1 div.s1-content a.btn-default.btn-video {
+        section.s1 div.scooter-btn a.btn-default.btn-video {
             background: #231f20;
             border-radius: 0px;
             color: #fff;
-            font-size: 24px;
             border: none;
         }
 
