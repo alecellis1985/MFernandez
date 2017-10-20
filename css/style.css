@@ -537,7 +537,7 @@ ul.topnav li a:hover {
             .enim-k1 section.blogs div.features div.feature-items div.feature-item {
                 display: inline-block;
                 width: 100%;
-                margin-bottom: 20px;
+                margin-top: 20px;
             }
 
                 .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
@@ -828,3 +828,13 @@ section.s1 {
         font-size: 50px !important;
         right: 40px;
     }
+
+.mobile-show {
+    display: none;
+}
+
+.jx-map.jx-map-fullwidth {
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+}
