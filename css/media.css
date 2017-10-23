@@ -16,10 +16,11 @@
         .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
             font-size: 16px;
         }
-    .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
-        margin-bottom: 70px;
-        margin-left: 174px;
-    }
+
+        .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
+            margin-bottom: 70px;
+            margin-left: 174px;
+        }
 
     .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box a h3 {
         font-size: 26px;
@@ -46,6 +47,7 @@
         font-size: 51px;
         line-height: 46px;
     }
+
     section.s1 div.s1-content h2 {
         font-size: 43px;
     }
@@ -58,11 +60,9 @@
         margin-left: 17px;
     }
 
-    section.s1 div.scooter-btn a {
-        font-size: 16px;
-    }
-
-
+        section.s1 div.scooter-btn a {
+            font-size: 16px;
+        }
 }
 
 
@@ -98,6 +98,7 @@
     .enim-k1 section.scooter div.smart-scooter p {
         font-size: 22px;
     }
+
     .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
         margin-bottom: 70px;
         margin-left: 130px;
@@ -156,13 +157,16 @@
         font-size: 102px;
         width: 112px;
     }
+
     section.s1 div.s h2 {
         font-size: 45px;
         line-height: 39px;
     }
+
     section.s1 div.s1-content h2 {
         font-size: 35px;
     }
+
     section.s1 div.s1-content p {
         font-size: 17px;
     }
@@ -170,9 +174,11 @@
     section.s1 div.scooter-btn a {
         font-size: 14px;
     }
+
     section.s1 div.scooter-btn {
         margin-top: 7px;
     }
+
     .enim-k1 nav.navbar-default {
         height: 113px;
     }
@@ -233,7 +239,7 @@
     }
 
     .enim-k1 section.chopper div.k1 h1 {
-        font-size: 65px !important;
+        font-size: 40px !important;
     }
 
     .enim-k1 section.blogs div.features div.scooter-img img {
@@ -290,56 +296,57 @@
         padding-left: 42%;
         margin-bottom: 10px;
     }
+
     section.s1 {
         padding: 17% 0 26% 33%;
         background-position-x: 40%;
         background-position-y: 67%;
     }
 
-    section.s1 div.scooter-btn a {
-        display: block;
-        margin-right: 50% !important;
-        margin-top: 7px;
-    }
+        section.s1 div.scooter-btn a {
+            display: block;
+            margin-right: 50% !important;
+            margin-top: 7px;
+        }
 
-    section.s1 div.s h1 {
-        font-size: 69px;
-        width: 77px;
-    }
+        section.s1 div.s h1 {
+            font-size: 69px;
+            width: 77px;
+        }
 
-    section.s1 div.s h2 {
-        font-size: 29px;
-        line-height: 26px;
-        margin-top: 13px;
-    }
+        section.s1 div.s h2 {
+            font-size: 29px;
+            line-height: 26px;
+            margin-top: 13px;
+        }
 
-    section.s1 div.s1-content h2 {
-        font-size: 30px;
-    }
+        section.s1 div.s1-content h2 {
+            font-size: 30px;
+        }
 
-    section.s1 div.s1-content p {
-        font-size: 14px;
-    }
+        section.s1 div.s1-content p {
+            font-size: 14px;
+        }
 
     .enim-k1 section.blogs div.features div.feature-items div.feature-item {
         width: 50%;
         float: left;
     }
 
-    .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
-        width: 45px !important;
-        height: 45px !important;
-        line-height: 42px !important;
-    }
+        .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
+            width: 45px !important;
+            height: 45px !important;
+            line-height: 42px !important;
+        }
 
-    .enim-k1 section.blogs div.features div.feature-items div.feature-item b {
-        display: block;
-        width: calc(100% - 50px);
-        float: left;
-        font-size: 13px;
-        padding: 0 5px;
-        min-height: 60px;
-    }
+        .enim-k1 section.blogs div.features div.feature-items div.feature-item b {
+            display: block;
+            width: calc(100% - 50px);
+            float: left;
+            font-size: 13px;
+            padding: 0 5px;
+            min-height: 60px;
+        }
 
     div.scooter-btn a.btn-default.btn-video {
         background: #231f20;
@@ -349,6 +356,29 @@
         font-size: 14px;
     }
 
+    section.chopper div.smart-scooter div.scooter-btn a.btn {
+        display: block;
+        width: 150px;
+        margin-bottom: 7px;
+        font-size: 18px !important;
+    }
+
+    .enim-k1 section.chopper {
+        padding: 100px 0px 29px 0px;
+    }
+
+        .enim-k1 section.chopper div.smart-scooter h2 {
+            font-size: 27px;
+            line-height: 30px;
+        }
+
+        .enim-k1 section.chopper div.smart-scooter p {
+            font-size: 18px;
+        }
+
+        .enim-k1 section.chopper div.smart-scooter div.scooter-btn a.btn-default.btn-video {
+            font-size: 18px;
+        }
 }
 
 
@@ -491,6 +521,7 @@
     .enim-k1 section.slider-payment div.payment img {
         padding-left: 38%;
     }
+
     .enim-k1 footer div.contact-info div.contact-item i {
         width: 100%;
         margin-bottom: 10px;
@@ -506,6 +537,7 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+
     .enim-k1 section.scooter div.k1 h1 {
         font-size: 65px !important;
     }
@@ -513,10 +545,6 @@
     .enim-k1 section.chopper div.k1 {
         width: 100% !important;
     }
-
-        .enim-k1 section.chopper div.k1 h1 {
-            font-size: 60px !important;
-        }
 
     .enim-k1 section.scooter div.smart-scooter h2 span {
         font-size: 27px;
@@ -545,10 +573,10 @@
             margin-top: 30px;
         }
 
-    section.s1 div.s h1 {
-        font-size: 57px !important;
-        width: 66px;
-    }
+        section.s1 div.s h1 {
+            font-size: 57px !important;
+            width: 66px;
+        }
 
         section.s1 div.s1-content h2, section.s1 div.s h2 {
             margin-top: 9px;
@@ -580,11 +608,31 @@
     section.s1 div.scooter-btn a {
         font-size: 13px;
     }
+
     div.scooter-btn a.btn-default.btn-video {
         font-size: 13px;
     }
+
     .enim-k1 section.blogs div.features div.scooter-img img {
-         padding: 0; 
+        padding: 0;
+    }
+
+    .enim-k1 section.chopper {
+        padding: 42px 0px 0px 0px;
+    }
+    .enim-k1 section.chopper div.smart-scooter {
+        width: calc(100% - 8px);
+    }
+    .enim-k1 section.chopper div.smart-scooter p {
+        font-size: 15px;
+    }
+    section.chopper div.smart-scooter div.scooter-btn a.btn {
+        width: 120px;
+        margin-bottom: 5px;
+        font-size: 14px !important;
+    }
+    .enim-k1 section.chopper div.smart-scooter div.scooter-btn a.btn-default.btn-video {
+        font-size: 14px;
     }
 }
 
@@ -595,39 +643,46 @@
     .enim-k1 section.scooter {
         background-position-x: 81%;
     }
-    .enim-k1 section.scooter div.k1 h1 {
-        font-size: 40px !important;
-    }
 
-    .enim-k1 section.scooter div.k1 {
-        width: 50px;
-    }
+        .enim-k1 section.scooter div.k1 h1 {
+            font-size: 40px !important;
+        }
 
-    .enim-k1 section.scooter div.smart-scooter {
-        width: calc(100% - 60px);
-        margin-top: -5px;
-        margin-left: 0;
-    }
+        .enim-k1 section.scooter div.k1 {
+            width: 50px;
+        }
 
-    .enim-k1 section.scooter div.smart-scooter h2 {
-        font-size: 20px;
-        line-height: 22px;
-    }
-    .enim-k1 section.scooter div.smart-scooter h2 span {
-        font-size: 20px;
-    }
-    .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
-        margin-left: 66px;
-    }
-    .enim-k1 section.scooter div.smart-scooter p {
-        font-size: 16px;
-    }
-    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
-        font-size: 14px;
-    }
-    .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn-default.btn-video {
-        font-size: 17px;
-    }
+        .enim-k1 section.scooter div.smart-scooter {
+            width: calc(100% - 60px);
+            margin-top: -5px;
+            margin-left: 0;
+        }
+
+            .enim-k1 section.scooter div.smart-scooter h2 {
+                font-size: 20px;
+                line-height: 22px;
+            }
+
+                .enim-k1 section.scooter div.smart-scooter h2 span {
+                    font-size: 20px;
+                }
+
+            .enim-k1 section.scooter div.smart-scooter div.scooter-btn {
+                margin-left: 66px;
+            }
+
+            .enim-k1 section.scooter div.smart-scooter p {
+                font-size: 16px;
+            }
+
+            .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn {
+                font-size: 14px;
+            }
+
+            .enim-k1 section.scooter div.smart-scooter div.scooter-btn a.btn-default.btn-video {
+                font-size: 17px;
+            }
+
     .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
         width: 45px !important;
         height: 45px !important;
