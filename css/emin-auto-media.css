@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1200px) {
+    .enim-k1 nav.navbar-default ul.navbar-right li {
+        margin-right: 20px;
+    }
+    .enim-k1 nav.navbar-default ul.navbar-right li a {
+        font-size: 17px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .enim-k1 nav.navbar-default ul.navbar-right li {
+        margin-right: 17px;
+    }
+    .enim-k1 nav.navbar-default ul.navbar-right li a {
+        font-size: 13px;
+    }
+
+    
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .enim-k1 nav.navbar-default {
+        height: 80px;
+    }
+
+    .navbar-default .navbar-toggle {
+        color: #f26367;
+        font-size: 30px;
+        padding: 3px 10px;
+        background: none;
+        border: none;
+    }
+
+    .enim-k1 nav.navbar-default a.navbar-brand {
+        margin-left: 20px;
+    }
+
+    .navbar-default .navbar-toggle.collapsed {
+        font-size: 30px;
+        padding: 3px 10px;
+        background: none;
+        border: none;
+        color: #000;
+    }
+
+    .navbar-default .navbar-toggle:hover {
+        background: none;
+        color: #f26367;
+    }
+
+    .enim-k1 nav.navbar-default ul.navbar-right {
+        background: #f8f8f8;
+        border: none;
+        padding: 10px !important;
+        padding-left: 25px !important;
+        margin-top: 0px !important;
+    }
+
+    .enim-k1 nav.navbar-default div.navbar-collapse {
+        border: 0px;
+    }
+
+    .enim-k1 nav.navbar-default div.navbar-collapse {
+        position: absolute;
+        width: 100%;
+        z-index: 1000000000000000000;
+    }
+    .menu-mobile {
+        width: 100%;
+    }
+    .enim-k1 nav.navbar-default ul.navbar-right li a {
+        font-size: 16px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    
+}
