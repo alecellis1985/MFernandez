@@ -607,6 +607,7 @@
 
     section.s1 div.scooter-btn a {
         font-size: 13px;
+        margin-right: 42% !important;
     }
 
     div.scooter-btn a.btn-default.btn-video {
