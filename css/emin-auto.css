@@ -78,7 +78,9 @@ ul.topnav li a:hover {
 .enim-k1 nav.navbar-default a.navbar-brand img{
     width: 70%;
 }
-
+.enim-k1 div.menu-mobile div.navbar-header {
+    margin-right: 0;
+}
     .enim-k1 nav.navbar-default ul.navbar-right {
         margin-top: 40px;
     }
