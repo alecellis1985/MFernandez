@@ -222,12 +222,12 @@ ul.topnav {
             }
 }
 
-
-
-ul.topnav li a:hover {
-    color: #FDF500 !important;
+.navbar-toggle {
+    margin-right: 0;
 }
-
+.enim-k1 div.menu-mobile div.navbar-header {
+    margin-right: 0;
+}
 .fa.fa-newspaper-o {
     color: #FDF500;
     font-size: 34px;
@@ -477,7 +477,7 @@ ul.topnav li a:hover {
     .enim-k1 section.blogs div.blog-item div.blog-img img {
         width: 100%;
         max-width: 100%;
-        height: 190px;
+        height: 240px;
     }
 
     .enim-k1 section.blogs div.blog-item div.blog-details {
