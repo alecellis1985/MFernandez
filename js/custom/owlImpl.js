@@ -1,4 +1,4 @@
-﻿$(document).ready(function() {
+﻿$(window).load(function() {
     $('.slider').owlCarousel({
         margin: 10,
         loop: true,
