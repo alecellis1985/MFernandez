@@ -1,0 +1,39 @@
+﻿@media (max-width:768px) {
+    .comparativo {
+        .input-group-addon {
+            background: #00b194;
+            border: 1px solid #fff;
+            color: #fff !important;
+            font-weight: 700;
+            font-size: 12px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        label {
+            font-size: 10px;
+            white-space: nowrap;
+        }
+
+        h1 {
+            font-size: 22px;
+            line-height: 22px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media (max-width:480px) {
+    input[type="number"] {
+        padding: 0 0 0 2px;
+    }
+    .comparativo {
+        label {
+            font-size: 9px;
+            white-space: nowrap;
+        }
+    }
+    .xs-center{
+        text-align:center;
+    }
+}
