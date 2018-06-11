@@ -482,13 +482,13 @@ ul.topnav {
 
     .enim-k1 section.blogs div.blog-item div.blog-details {
         position: relative;
-        height: 280px;
+        height: 140px;
     }
 
         .enim-k1 section.blogs div.blog-item div.blog-details div.blog-details-box {
             background: #fff;
             position: absolute;
-            padding: 20px 48px;
+            padding: 2px 22px;
             width: 90%;
             left: 5%;
             top: -37px;
@@ -531,9 +531,20 @@ ul.topnav {
     }
 
     .enim-k1 section.blogs div.features {
-        background: rgba(147, 147, 147, 0.5);
+        background: #d4d4d4;
         padding: 40px 0px;
     }
+
+        .enim-k1 section.blogs div.features .scooter-img img{
+            display: block;
+            max-width: 127%;
+            height: auto;
+            margin-left: -95px;
+        }
+
+        .enim-k1 section.blogs div.features div.col-xs-12 {
+            padding: 0;
+        }
 
         .enim-k1 section.blogs div.features div.feature-items {
             text-align: center;
@@ -547,16 +558,16 @@ ul.topnav {
 
                 .enim-k1 section.blogs div.features div.feature-items div.feature-item span {
                     display: block;
-                    width: 100%px;
-                    height: 100px;
+                    width: 46px;
+                    height: 46px;
                     float: left;
-                    line-height: 100px;
+                    line-height: 43px;
                     border: 1px solid #000;
                     border-radius: 50%;
                 }
 
                     .enim-k1 section.blogs div.features div.feature-items div.feature-item span img {
-                        width: 70%;
+                        width: 30px;
                     }
 
                 .enim-k1 section.blogs div.features div.feature-items div.feature-item b {
@@ -564,8 +575,8 @@ ul.topnav {
                     width: calc(100% - 105px);
                     float: left;
                     text-align: left;
-                    font-size: 20px;
-                    padding: 10px 15px;
+                    font-size: 15px;
+                    padding: 0px 15px;
                     vertical-align: middle;
                     font-family: gotham;
                 }
@@ -822,6 +833,7 @@ section.s1 div.scooter-btn a{
     background-image: url('../images/chopper-background.jpg');
     background-size: cover;
     background-position: center;
+    height: 90vh;
 }
 
     .enim-k1 section.chopper div.k1 {
